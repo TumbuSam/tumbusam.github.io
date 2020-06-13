@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Blok Name="Рамка">
- <Text Size="2.5" Aligned="1" X="-25" Y="2.5" W="1" AlY="1" PList="1"></Text>
-</Blok>
+<M Name="Шкаф">
+ <E Name="Стенка левая">
+   <S tip="dl">200</S>
+ </E>
+</M>
