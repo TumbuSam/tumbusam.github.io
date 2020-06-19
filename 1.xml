@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Шкаф">
- <E Name="Стенка левая">
-   <S tip="dl">200</S>
+ <E>
+   <S tip="dl">18</S><S tip="sh">2200</S><S tip="tl">600</S>
+   <S tip="x">441</S><S tip="y">0</S><S tip="z">0</S>
  </E>
+ <E>
+   <S tip="dl">18</S><S tip="sh">2200</S><S tip="tl">600</S>
+   <S tip="x">-441</S><S tip="y">0</S><S tip="z">0</S>
+ </E>
+ <T><![CDATA[
+Тип свойства: dl - длина, sh - ширина, tl - толщина, ts - текстура, x, y, z - координаты, px, py, pz - поворот в радианах.
+
+    //var d1 = new THREE.Mesh(new THREE.BoxGeometry(18, 2200, 600), material);
+    //d1.position.set(441, 0, 0);
+    //scene.add(d1);
+
+    //var d2 = new THREE.Mesh(new THREE.BoxGeometry(18, 2200, 600), material);
+    //d2.position.set(-441, 0, 0);
+    //scene.add(d2);
+
+    //var d3 = new THREE.Mesh(new THREE.BoxGeometry(18, 1794, 600), material);
+    //d3.position.set(0, -103, 0);
+    //scene.add(d3);
+
+    //var d4 = new THREE.Mesh(new THREE.BoxGeometry(864, 82, 18), material);
+    //d4.position.set(0, -1059, 281);
+    //scene.add(d4);
+
+    //var d5 = new THREE.Mesh(new THREE.BoxGeometry(18, 82, 572), material);
+    //d5.position.set(0, -1059, -14);
+    //scene.add(d5);
+
+    //var d6 = new THREE.Mesh(new THREE.BoxGeometry(864, 18, 600), material);
+    //d6.position.set(0, -1009, 0);
+    //scene.add(d6);
+
+    //var d7 = new THREE.Mesh(new THREE.BoxGeometry(900, 18, 620), material);
+    //d7.position.set(0, 1109, 10);
+    //scene.add(d7);
+
+    //var d8 = new THREE.Mesh(new THREE.BoxGeometry(864, 18, 600), material);
+    //d8.position.set(0, 803, 0);
+    //scene.add(d8);
+
+    //var d9 = new THREE.Mesh(new THREE.BoxGeometry(900, 2136, 4), mat2);
+    //d9.position.set(0, 50, -302);
+    //scene.add(d9);
+
+    //var d10 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d10.position.set(-220, 516, 0);
+    //scene.add(d10);
+
+    //var d11 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d11.position.set(220, 516, 0);
+    //scene.add(d11);
+
+    //var d12 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d12.position.set(-220, 218, 0);
+    //scene.add(d12);
+
+    //var d13 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d13.position.set(220, 218, 0);
+    //scene.add(d13);
+
+    //var d14 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d14.position.set(-220, -80, 0);
+    //scene.add(d14);
+
+    //var d15 = new THREE.Mesh(new THREE.BoxGeometry(423, 18, 600), material);
+    //d15.position.set(220, -80, 0);
+    //scene.add(d15);
+
+    //var d16 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d16.position.set(-220, -219, 281);
+    //scene.add(d16);
+
+    //var d17 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d17.position.set(220, -219, 281);
+    //scene.add(d17);
+
+    //var d18 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d18.position.set(-220, -449, 281);
+    //scene.add(d18);
+
+    //var d19 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d19.position.set(220, -449, 281);
+    //scene.add(d19);
+
+    //var d20 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d20.position.set(-220, -679, 281);
+    //scene.add(d20);
+
+    //var d21 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d21.position.set(220, -679, 281);
+    //scene.add(d21);
+
+    //var d22 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d22.position.set(-220, -909, 281);
+    //scene.add(d22);
+
+    //var d23 = new THREE.Mesh(new THREE.BoxGeometry(418, 197, 18), material);
+    //d23.position.set(220, -909, 281);
+    //scene.add(d23);
+
+    //var d24 = new THREE.Mesh(new THREE.BoxGeometry(447, 2116, 18), material);
+    //d24.position.set(528, 32, 559);
+    //d24.rotation.y = 1.91986;
+    //scene.add(d24);
+
+    //var d25 = new THREE.Mesh(new THREE.BoxGeometry(447, 2116, 18), material);
+    //d25.position.set(-528, 32, 559);
+    //d25.rotation.y = -1.91986;
+    //scene.add(d25);
+]]></T>
 </M>
+
