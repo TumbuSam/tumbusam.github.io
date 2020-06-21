@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Шкаф">
  <E>
-   <S tip="dl">18</S><S tip="sh">2200</S><S tip="tl">600</S>
+   <S tip="dx">18</S><S tip="dy">2200</S><S tip="dz">600</S>
    <S tip="x">441</S><S tip="y">0</S><S tip="z">0</S>
  </E>
  <E>
-   <S tip="dl">18</S><S tip="sh">2200</S><S tip="tl">600</S>
+   <S tip="dx">18</S><S tip="dy">2200</S><S tip="dz">600</S>
    <S tip="x">-441</S><S tip="y">0</S><S tip="z">0</S>
  </E>
  <T><![CDATA[

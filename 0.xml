@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Брус">
  <E>
-   <S tip="dl">1000</S><S tip="sh">2000</S><S tip="tl">1000</S>
+   <S tip="dx">1000</S><S tip="dy">2000</S><S tip="dz">1000</S>
    <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
  </E>
 </M>
