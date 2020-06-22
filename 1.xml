@@ -15,28 +15,20 @@
    <S tip="x">0</S><S tip="y">-103</S><S tip="z">0</S>
    <S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
+ <E1>
+   <S tip="dx">864</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-1059</S><S tip="z">281</S>
+ </E1>
+ <E>
+   <S tip="dx">572</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-1059</S><S tip="z">-14</S>
+   <S tip="py">1.570796</S>
+ </E>
  <T><![CDATA[
 Тип свойства: dl - длина, sh - ширина, tl - толщина, ts - текстура, x, y, z - координаты, px, py, pz - поворот в радианах.
 
-    //var d1 = new THREE.Mesh(new THREE.BoxGeometry(18, 2200, 600), material);
-    //d1.position.set(441, 0, 0);
-    //scene.add(d1);
 
-    //var d2 = new THREE.Mesh(new THREE.BoxGeometry(18, 2200, 600), material);
-    //d2.position.set(-441, 0, 0);
-    //scene.add(d2);
 
-    //var d3 = new THREE.Mesh(new THREE.BoxGeometry(18, 1794, 600), material);
-    //d3.position.set(0, -103, 0);
-    //scene.add(d3);
-
-    //var d4 = new THREE.Mesh(new THREE.BoxGeometry(864, 82, 18), material);
-    //d4.position.set(0, -1059, 281);
-    //scene.add(d4);
-
-    //var d5 = new THREE.Mesh(new THREE.BoxGeometry(18, 82, 572), material);
-    //d5.position.set(0, -1059, -14);
-    //scene.add(d5);
 
     //var d6 = new THREE.Mesh(new THREE.BoxGeometry(864, 18, 600), material);
     //d6.position.set(0, -1009, 0);
