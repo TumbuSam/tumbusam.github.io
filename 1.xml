@@ -45,6 +45,37 @@
    <S tip="px">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
+ <E>
+   <S tip="dx">600</S><S tip="dy">423</S><S tip="dz">18</S>
+   <S tip="x">220</S><S tip="y">516</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E>
+   <S tip="dx">600</S><S tip="dy">423</S><S tip="dz">18</S>
+   <S tip="x">-220</S><S tip="y">218</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E>
+   <S tip="dx">600</S><S tip="dy">423</S><S tip="dz">18</S>
+   <S tip="x">220</S><S tip="y">218</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E>
+   <S tip="dx">600</S><S tip="dy">423</S><S tip="dz">18</S>
+   <S tip="x">-220</S><S tip="y">-80</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E>
+   <S tip="dx">600</S><S tip="dy">423</S><S tip="dz">18</S>
+   <S tip="x">220</S><S tip="y">-80</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ 
  
 
  <T><![CDATA[
