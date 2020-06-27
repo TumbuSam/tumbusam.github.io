@@ -168,6 +168,7 @@ function animate() {
   angle += angularSpeed * delta;
   
   camera.lookAt(plane.position);
+  scene.remove( d1 );
   renderer.render(scene, camera);
 }
 
