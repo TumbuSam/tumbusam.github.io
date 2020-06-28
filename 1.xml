@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Шкаф">
-  <S id='sh' Name='Ширина' min=400 max=1200 step=1>
+  <S id='sh' Name='Ширина' min='400' max='1200' step='1' >
     900
   </S>
-  <S id='gl' Name='Глубина' min=300 max=1200 step=1>
+  <S id='gl' Name='Глубина' min='300' max='1200' step='1' >
     620
   </S>
-  <S id='vs' Name='Высота' min=1000 max=2700 step=1>
+  <S id='vs' Name='Высота' min='1000' max='2700' step='1' >
     2218
   </S>
  <E>
