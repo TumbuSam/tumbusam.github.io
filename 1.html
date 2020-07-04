@@ -8,9 +8,8 @@
 	</head>
 	<body>
 		<script src="js/three.js"></script>
-		<script src="jsm/controls/OrbitControls.js"></script>
-		<script>
-//import { OrbitControls } from 'jsm/controls/OrbitControls.js';
+		<script type="module">
+import { OrbitControls } from 'jsm/controls/OrbitControls.js';
 
 var camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 10000);
 camera.position.set(0, 1500, 20);
