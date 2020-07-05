@@ -1,51 +1,102 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>My first three.js app</title>
+		<title>three.js webgl - materials - car</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
-			body { margin: 0; }
-			canvas { display: block; }
+			body {
+				color: #444;
+				background: #eee;
+			}
+			a {
+				color: #08f;
+			}
+			.colorPicker {
+				display: inline-block;
+				margin: 0 10px
+			}
 		</style>
 	</head>
+
 	<body>
-		<script src="js/three.js"></script>
-		<script>
+		<div id="container"></div>
 
-var camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 10000);
-camera.position.set(0, 1500, 20);
+		<script type="module">
 
-var scene = new THREE.Scene();
+			import * as THREE from './js/three.module.js';
 
-var light1 = new THREE.PointLight();
-light1.position.set(0, 3000, 2000);
+			import { OrbitControls } from './js/OrbitControls.js';
+
+			var camera, scene, renderer;
+
+			var grid, wheels = [];
+			var controls;
+
+			function init() {
+
+				var container = document.getElementById( 'container' );
+
+
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setAnimationLoop( render );
+				container.appendChild( renderer.domElement );
+
+				camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 100000 );
+				camera.position.set( 0, 1500, 2000 );
+
+				controls = new OrbitControls( camera, container );
+				controls.target.set( 0, 0.5, 0 );
+				controls.update();
+
+
+				scene = new THREE.Scene();
+				scene.background = new THREE.Color( 0xeeeeee );
+
+  const color = 0xFFFFFF;
+  const intensity1 = 0.5;
+  const intensity2 = 0.3;
+
+var light1 = new THREE.PointLight(color, intensity1);
+light1.position.set(10000, 10000, 10000);
 scene.add(light1);
 
-var light2 = new THREE.PointLight();
-light2.position.set(20000, 0, 0);
+var light2 = new THREE.PointLight(color, intensity1);
+light2.position.set(10000, 10000, -10000);
 scene.add(light2);
 
-var light3 = new THREE.PointLight();
-light3.position.set(-20000, 0, 0);
+var light3 = new THREE.PointLight(color, intensity1);
+light3.position.set(-10000, 10000, 10000);
 scene.add(light3);
 
-var light4 = new THREE.PointLight();
-light4.position.set(0, 2000, -20000);
+var light4 = new THREE.PointLight(color, intensity1);
+light4.position.set(-10000, 10000, -10000);
 scene.add(light4);
 
+var light5 = new THREE.PointLight(color, intensity2);
+light5.position.set(10000, -10000, 10000);
+scene.add(light5);
 
-var renderer = renderer = new THREE.WebGLRenderer({
-  antialias: true
-});
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+var light6 = new THREE.PointLight(color, intensity2);
+light6.position.set(10000, -10000, -10000);
+scene.add(light6);
 
-//var material = new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('img/p.png'), side: THREE.DoubleSide});
+var light7 = new THREE.PointLight(color, intensity2);
+light7.position.set(-10000, -10000, 10000);
+scene.add(light7);
+
+var light8 = new THREE.PointLight(color, intensity2);
+light8.position.set(-10000, -10000, -10000);
+scene.add(light8);
+
+				// materials
+
 var material = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/p.png'), side: THREE.DoubleSide});
 var m1 = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/hdfl.jpg'), side: THREE.DoubleSide});
 var m2 = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/hdfo.jpg'), side: THREE.DoubleSide});
-
 var mat2 = [m2, m2, m2, m2, m1, m2 ];
 
-//var geometry = new THREE.BoxGeometry(4,4,4);
 
 var d1 = new THREE.Mesh(new THREE.BoxGeometry(18,2200,600), material);
 d1.position.set(441, 0, 0);
@@ -150,32 +201,27 @@ d25.rotation.y = -1.91986;
 scene.add(d25);
 
 
+			}
 
-var plane = new THREE.GridHelper(20, 40);
-//scene.add(plane);
+			function onWindowResize() {
 
-var clock = new THREE.Clock();
-var angle = 0;
-var angularSpeed = THREE.Math.degToRad(20); // градусов в секунду
-var delta = 0;
-var radius = 2600;
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
 
-function animate() {
-	delta = clock.getDelta();
-  requestAnimationFrame(animate);
-  
-  camera.position.x = Math.cos(angle) * radius;
-  camera.position.z = Math.sin(angle) * radius;
-  angle += angularSpeed * delta;
-  
-  camera.lookAt(plane.position);
-  //scene.remove( d1 );
-  renderer.render(scene, camera);
-}
+				renderer.setSize( window.innerWidth, window.innerHeight );
 
-animate();
+			}
 
+			function render() {
+
+
+				renderer.render( scene, camera );
+
+			}
+
+			init();
 
 		</script>
+
 	</body>
 </html>
