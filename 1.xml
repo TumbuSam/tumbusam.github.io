@@ -5,13 +5,13 @@
   <S id='vs' Name='Высота' min='1000' max='2700' step='1' >2218</S>
   <S id='ml' Name='ДСП' >1</S>
  <E>
-   <S tip="dx">2200</S><S tip="dy">gl - 20</S><S tip="dz">18</S>
-   <S tip="x">441</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="dx">vs-18</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
  <E>
-   <S tip="dx">vs + 18</S><S tip="dy">600</S><S tip="dz">18</S>
-   <S tip="x">-441</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="dx">vs-18</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">-sh/2+9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
  <E>
