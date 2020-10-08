@@ -15,15 +15,15 @@
    <S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
  <E>
-   <S tip="dx">1794</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="dx">vs-424</S><S tip="dy">gl-20</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">-103</S><S tip="z">0</S>
    <S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
-<K>
  <E>
-   <S tip="dx">864</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="dx">sh-36</S><S tip="dy">82</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">-1059</S><S tip="z">281</S>
  </E>
+<K>
  <E>
    <S tip="dx">572</S><S tip="dy">82</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">-1059</S><S tip="z">-14</S>
