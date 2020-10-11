@@ -4,6 +4,7 @@
   <S id='gl' Name='Глубина' min='300' max='1200' step='1' >620</S>
   <S id='vs' Name='Высота' min='1000' max='2700' step='1' >2218</S>
   <S id='ml' Name='ДСП' >1</S>
+  <S id='ml1' Name='ХДФ' >1</S>
  <E>
    <S tip="dx">vs-18</S><S tip="dy">gl-20</S><S tip="dz">18</S>
    <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
