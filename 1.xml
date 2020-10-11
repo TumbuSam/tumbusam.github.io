@@ -45,13 +45,13 @@
  </E>
  <E>
    <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
-   <S tip="x">-sh/2+230</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
+   <S tip="x">-(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
  <E>
    <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
-   <S tip="x">sh/2-230</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
+   <S tip="x">(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
