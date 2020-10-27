@@ -62,8 +62,8 @@
  </E>
  <E>
    <S tip="dx">sh/2-20</S><S tip="dy">vs-102</S><S tip="dz">18</S>
-   <S tip="x">(sh-18)/4</S><S tip="y">41</S><S tip="z">-gl/2</S>
-   <S tip="py">1.91986</S>
+   <S tip="x">(sh-18)/4</S><S tip="y">41</S><S tip="z">gl/2</S>
+   <S1 tip="py">1.91986</S1>
  </E>
 
 <K>
