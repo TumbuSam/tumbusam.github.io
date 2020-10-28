@@ -67,10 +67,10 @@
 
  <E>
    <S tip="dx">sh/2-2</S><S tip="dy">vs-102</S><S tip="dz">18</S>
-    <S tip="x">sh/2+26+(sh/4-sh/2-26)*Math.cos(0.1)+(gl/2-gl/2-16)*Math.sin(0.1)</S>
+    <S tip="x">sh/2+26+(sh/4-sh/2-26)*Math.cos(2)+(gl/2-gl/2-16)*Math.sin(2)</S>
     <S tip="y">41</S>
-    <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(0.1)-(sh/4-sh/2-26)*Math.sin(0.1)</S>
-   <S tip="py">0.1</S>
+    <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(2)-(sh/4-sh/2-26)*Math.sin(2)</S>
+   <S tip="py">2</S>
  </E>
 
 <K>
