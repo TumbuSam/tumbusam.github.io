@@ -13,9 +13,9 @@
    <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
  <E m='ml'>
-   <S tip="dx">vs-18</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S>
    <S tip="x">-sh/2+9</S><S tip="y">0</S><S tip="z">0</S>
-   <S tip="py">1.570796</S><S tip="pz">1.570796</S>
+   <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S>
  </E>
  <E m='ml'>
    <S tip="dx">vs-424</S><S tip="dy">gl-20</S><S tip="dz">18</S>
