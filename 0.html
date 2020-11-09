@@ -95,8 +95,8 @@ scene.add(light8);
 var material = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/p.png'), side: THREE.DoubleSide});
 var m1 = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/hdfl.jpg'), side: THREE.DoubleSide});
 var m2 = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('img/hdfo.jpg'), side: THREE.DoubleSide});
-var mat2 = [m2, m2, m2, m2, m1, m2 ];
-
+var mat2 = [m2, m2, m2, m2, m2, m1 ];
+ //0,0,0,0,zp,zm
 
 var d1 = new THREE.Mesh(new THREE.BoxGeometry(2200,600,18), mat2);
 d1.position.set(0, 0, 0);
