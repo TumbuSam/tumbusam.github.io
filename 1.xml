@@ -3,15 +3,18 @@
   <S id='sh' Name='Ширина' min='400' max='1200' step='1' >900</S>
   <S id='gl' Name='Глубина' min='300' max='1200' step='1' >620</S>
   <S id='vs' Name='Высота' min='1000' max='2700' step='1' >2218</S>
-  <S id='ml' Name='ДСП' >1</S>
-  <S id='ml1' Name='ХДФ' >1002</S>
+  <S id='ml' Name='ДСП' kr='48'>1</S>
+  <S id='ml1' Name='ХДФ' kr='16'>1002</S>
   <S id='ugl' Name='Двери' min='0' max='2' step='0.01' >2</S>
 
  <E m='ml'>
-   <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S>
+   <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S><E1>
    <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
-   <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S>
+   <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S></E1>
+   <K>1</K>
  </E>
+
+<E1>
  <E m='ml'>
    <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S>
    <S tip="x">-sh/2+9</S><S tip="y">0</S><S tip="z">0</S>
@@ -77,6 +80,7 @@
     <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(-ugl)-(-sh/4+sh/2+26)*Math.sin(-ugl)</S>
    <S tip="py">-ugl</S>
  </E>
+</E1>
 
 
  <T><![CDATA[
