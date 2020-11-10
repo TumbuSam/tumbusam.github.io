@@ -14,6 +14,14 @@
    <K>1</K>
  </E>
 
+
+ <E m='ml1'>
+   <S tip="dx">sh</S><S tip="dy">vs-82</S><S tip="dz">4</S>
+   <S tip="x">0</S><S tip="y">50</S><S tip="z">-(gl-20)/2-2</S>
+ </E>
+
+
+
 <E1>
  <E m='ml'>
    <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S>
