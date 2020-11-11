@@ -3,8 +3,8 @@
   <S id='sh' Name='Ширина' min='400' max='1200' step='1' >900</S>
   <S id='gl' Name='Глубина' min='300' max='1200' step='1' >620</S>
   <S id='vs' Name='Высота' min='1000' max='2700' step='1' >2218</S>
-  <S id='ml' Name='ДСП' kr='48'>1</S>
-  <S id='ml1' Name='ХДФ' kr='16'>1002</S>
+  <S id='ml' Name='ДСП' kr='48' t='/Img/dsp.jpg'>1</S>
+  <S id='ml1' Name='ХДФ' kr='16' t='/Img/hdfo.jpg'>1002</S>
   <S id='ugl' Name='Двери' min='0' max='2' step='0.01' >2</S>
 
  <E m='ml'>
