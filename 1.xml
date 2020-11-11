@@ -7,11 +7,10 @@
   <S id='ml1' Name='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>1002</S>
   <S id='ugl' Name='Двери' min='0' max='2' step='0.01' >2</S>
 
- <E m='ml'>
+ <E m='ml' kr='1'>
    <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S><E1>
    <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S></E1>
-   <K>1</K>
  </E>
 
 
