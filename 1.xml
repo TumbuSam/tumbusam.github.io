@@ -12,16 +12,6 @@
    <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="px">1.570796</S><S tip="py">1.570796</S><S tip="pz">1.570796</S></E1>
  </E>
-
-
- <E m='ml1'>
-   <S tip="dx">sh</S><S tip="dy">vs-82</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">50</S><S tip="z">-(gl-20)/2-2</S>
- </E>
-
-
-
-<E1>
  <E m='ml'>
    <S tip="dx">gl-20</S><S tip="dy">vs-18</S><S tip="dz">18</S>
    <S tip="x">-sh/2+9</S><S tip="y">0</S><S tip="z">0</S>
@@ -87,7 +77,6 @@
     <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(-ugl)-(-sh/4+sh/2+26)*Math.sin(-ugl)</S>
    <S tip="py">-ugl</S>
  </E>
-</E1>
 
 
  <T><![CDATA[
