@@ -36,23 +36,23 @@
    <S tip="x">0</S><S tip="y">91-(vs-18)/2</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
- <E m='ml' kr='4'>
+ <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">(vs-18)/2+9</S><S tip="z">10</S>
    <S tip="px">1.570796</S>
  </E>
- <E m='ml'>
+ <E m='ml' kr='4'>
    <S tip="dx">sh-36</S><S tip="dy">gl-20</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">(vs-18)/2-297</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
- <E m='ml'>
+ <E m='ml' kr='1'>
    <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
    <S tip="x">-(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
- <E m='ml'>
+ <E m='ml' kr='2'>
    <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
    <S tip="x">(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
