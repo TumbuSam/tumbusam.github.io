@@ -31,10 +31,14 @@
    <S tip="x">-100</S><S tip="y">vs/2-97</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
-
  <E m='ml' kr='3'>
    <S tip="dx">gl-100</S><S tip="dy">vs-194</S><S tip="dz">18</S>
-   <S tip="x">-100-sh/2+140</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="x">-100-sh/2+140+9</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">vs-194</S><S tip="dz">18</S>
+   <S tip="x">-100+sh/2-140-9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
 
