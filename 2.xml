@@ -2,7 +2,7 @@
 <M Name="Шкаф">
   <S id='sh' Name='Ширина' min='800' max='1000' step='1' >900</S>
   <S id='gl' Name='Глубина' min='400' max='600' step='1' >500</S>
-  <S id='vs' Name='Высота' min='250' max='450' step='1' >350</S>
+  <S id='vs' Name='Высота' min='300' max='450' step='1' >350</S>
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
   <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S>
 
@@ -26,13 +26,17 @@
    <S tip="x">-100</S><S tip="y">-vs/2+97</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
-
  <E m='ml' kr='15'>
    <S tip="dx">sh-280</S><S tip="dy">gl-100</S><S tip="dz">18</S>
    <S tip="x">-100</S><S tip="y">vs/2-97</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
+ <E m='ml' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">vs-194</S><S tip="dz">18</S>
+   <S tip="x">-100-sh/2+140</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
 
 <K>
  <E m='ml' kr='4'>
