@@ -11,8 +11,13 @@
  </E>
  <E m='ml' kr='15'>
    <S tip="dx">1700</S><S tip="dy">230</S><S tip="dz">18</S>
-   <S tip="x">115</S><S tip="y">0</S><S tip="z">-221</S>
+   <S tip="x">115</S><S tip="y">0</S><S tip="z">-115</S>
    <S tip="pz">1.570796</S>
+ </E>
+ <E m='ml1' kr='15'>
+   <S tip="dx">468</S><S tip="dy">212</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-840</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
  </E>
 
 <K>
