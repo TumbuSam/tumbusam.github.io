@@ -15,8 +15,14 @@
    <S tip="pz">1.570796</S>
  </E>
  <E m='ml1' kr='15'>
+   <S tip="dx">100</S><S tip="dy">212</S><S tip="dz">18</S>
+   <S tip="x">115</S><S tip="y">-800</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E m='ml1' kr='15'>
    <S tip="dx">468</S><S tip="dy">212</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">-840</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-741</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
