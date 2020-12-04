@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Ящик">
-  <S id='sh' Name='Ширина' min='400' max='500' step='1' >423</S>
+  <S id='sh' Name='Ширина' min='300' max='800' step='1' >423</S>
   <S id='gl' Name='Глубина' min='300' max='800' step='1' >590</S>
   <S id='vs' Name='Высота' min='100' max='400' step='1' >230</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
