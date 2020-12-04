@@ -21,6 +21,10 @@
    <S tip="x">-sh/2+22</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh-62</S><S tip="dy">vs-72</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">gl/2-24</S><S tip="z">0</S>
+ </E>
 
 <K>
  <E m='ml' kr='4'>
