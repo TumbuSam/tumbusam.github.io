@@ -8,7 +8,7 @@
 
  <E m='ml' kr='15'>
    <S tip="dx">sh-4</S><S tip="dy">vs-32</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-6</S>
+   <S tip="x">0</S><S tip="y">10</S><S tip="z">gl/2-6</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-30</S><S tip="dy">vs-62</S><S tip="dz">18</S>
