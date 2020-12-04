@@ -11,7 +11,7 @@
    <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
  </E1>
 
- <E m='ml' kr='10'>
+ <E m='ml' kr='5'>
    <S tip="dx">gl-30</S><S tip="dy">vs-72</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
