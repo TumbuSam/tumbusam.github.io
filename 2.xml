@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<M Name="Шкаф">
+<M Name="Столик">
   <S id='sh' Name='Ширина' min='800' max='1000' step='1' >900</S>
   <S id='gl' Name='Глубина' min='400' max='600' step='1' >500</S>
   <S id='vs' Name='Высота' min='300' max='450' step='1' >350</S>

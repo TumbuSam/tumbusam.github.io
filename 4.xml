@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<M Name="Ящик">
+  <S id='sh' Name='Ширина' min='400' max='500' step='1' >423</S>
+  <S id='gl' Name='Глубина' min='300' max='800' step='1' >590</S>
+  <S id='vs' Name='Высота' min='100' max='400' step='1' >230</S>
+  <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
+  <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>1002</S>
+
+ <E1 m='ml' kr='15'>
+   <S tip="dx">sh-4</S><S tip="dy">vs-32</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
+ </E1>
+
+ <E m='ml' kr='10'>
+   <S tip="dx">gl-30</S><S tip="dy">vs-72</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+
+<K>
+ <E m='ml' kr='4'>
+   <S tip="dx">vs-18</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">-sh/2+9</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S><S tip="pz">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">vs-424</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-103</S><S tip="z">0</S>
+   <S tip="py">1.570796</S><S tip="pz">1.570796</S>
+ </E>
+ <E m='ml'>
+   <S tip="dx">sh-36</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">41-(vs-18)/2</S><S tip="z">(gl-20)/2-19</S>
+ </E>
+ <E m='ml'>
+   <S tip="dx">gl-48</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">41-(vs-18)/2</S><S tip="z">-14</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh-36</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">91-(vs-18)/2</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='7'>
+   <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">(vs-18)/2+9</S><S tip="z">10</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh-36</S><S tip="dy">gl-20</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">(vs-18)/2-297</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='1'>
+   <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
+   <S tip="x">-(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E m='ml' kr='1'>
+   <S tip="dx">gl-20</S><S tip="dy">sh/2-27</S><S tip="dz">18</S>
+   <S tip="x">(sh-18)/4</S><S tip="y">(vs-18)/2-584</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E m='ml1'>
+   <S tip="dx">sh</S><S tip="dy">vs-82</S><S tip="dz">4</S>
+   <S tip="x">0</S><S tip="y">50</S><S tip="z">-(gl-20)/2-2</S>
+ </E>
+
+ <E m='ml' kr='15'>
+   <S tip="dx">vs-102</S><S tip="dy">sh/2-2</S><S tip="dz">18</S>
+    <S tip="x">sh/2+26+(sh/4-sh/2-26)*Math.cos(ugl)+(gl/2-gl/2-16)*Math.sin(ugl)</S>
+    <S tip="y">41</S>
+    <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(ugl)-(sh/4-sh/2-26)*Math.sin(ugl)</S>
+   <S tip="py">ugl</S><S tip="pz">1.570796</S>
+ </E>
+ <E m='ml' kr='15'>
+   <S tip="dx">vs-102</S><S tip="dy">sh/2-2</S><S tip="dz">18</S>
+    <S tip="x">-sh/2-26+(-sh/4+sh/2+26)*Math.cos(-ugl)+(gl/2-gl/2-16)*Math.sin(-ugl)</S>
+    <S tip="y">41</S>
+    <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(-ugl)-(-sh/4+sh/2+26)*Math.sin(-ugl)</S>
+   <S tip="py">-ugl</S><S tip="pz">1.570796</S>
+ </E>
+
+</K>
+</M>
+
