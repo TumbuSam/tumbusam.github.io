@@ -23,7 +23,11 @@
  </E>
  <E m='ml' kr='4'>
    <S tip="dx">sh-62</S><S tip="dy">vs-72</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">gl/2-24</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-24</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh-62</S><S tip="dy">vs-72</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">-gl/2+24</S>
  </E>
 
 <K>
