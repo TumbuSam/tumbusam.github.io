@@ -32,6 +32,8 @@
  <E m='ml1'>
    <S tip="dx">gl-30</S><S tip="dy">sh-26</S><S tip="dz">4</S>
    <S tip="x">0</S><S tip="y">vs/2-34</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
  </E>
 
 </M>
