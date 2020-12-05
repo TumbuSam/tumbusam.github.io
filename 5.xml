@@ -11,8 +11,8 @@
   <S id='OtL' Name='Лево' min='-1' max='36' step='1' >18</S>
 
  <E m='ml' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-6</S>
+   <S tip="dx">sh+OtP+OtL</S><S tip="dy">vs+OtV+OtN</S><S tip="dz">18</S>
+   <S tip="x">OtP/2-OtL/2</S><S tip="y">OtV/2-OtN/2</S><S tip="z">gl/2-6</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-30</S><S tip="dy">vs-20</S><S tip="dz">18</S>
