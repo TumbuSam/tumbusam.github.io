@@ -5,14 +5,14 @@
   <S id='vs' Name='Высота' min='100' max='400' step='1' >230</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>1003</S>
-  <S id='OtV' Name='Верх' min='0' max='36' step='1' >0</S>
-  <S id='OtN' Name='Низ' min='0' max='36' step='1' >0</S>
-  <S id='OtP' Name='Право' min='0' max='36' step='1' >0</S>
-  <S id='OtL' Name='Лево' min='0' max='36' step='1' >0</S>
+  <S id='OtV' Name='Верх' min='0' max='36' step='1' >18</S>
+  <S id='OtN' Name='Низ' min='0' max='36' step='1' >18</S>
+  <S id='OtP' Name='Право' min='0' max='36' step='1' >18</S>
+  <S id='OtL' Name='Лево' min='0' max='36' step='1' >18</S>
 
  <E m='ml' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs+OtV</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">OtV/2</S><S tip="z">gl/2-6</S>
+   <S tip="dx">sh</S><S tip="dy">vs+OtV+OtN</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">OtV/2-OtN/2</S><S tip="z">gl/2-6</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-30</S><S tip="dy">vs-20</S><S tip="dz">18</S>
