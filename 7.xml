@@ -33,18 +33,33 @@
 
  <E m='ml' kr='2'>
    <S tip="dx">gl</S><S tip="dy">vs/2-76</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">vs/4+2</S><S tip="z">0</S>
+   <S tip="x">sh/6-3</S><S tip="y">vs/4+2</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='2'>
    <S tip="dx">gl</S><S tip="dy">vs/2-76</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">-vs/4+62</S><S tip="z">0</S>
+   <S tip="x">sh/6-3</S><S tip="y">-vs/4+62</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='0'>
+   <S tip="dx">gl-28</S><S tip="dy">82</S><S tip="dz">18</S>
+   <S tip="x">sh/6-3</S><S tip="y">-vs/2+41</S><S tip="z">-14</S>
    <S tip="py">1.570796</S>
  </E>
 
+ <E m='ml' kr='2'>
+   <S tip="dx">gl</S><S tip="dy">vs/2-76</S><S tip="dz">18</S>
+   <S tip="x">-sh/6+3</S><S tip="y">vs/4+2</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='2'>
+   <S tip="dx">gl</S><S tip="dy">vs/2-76</S><S tip="dz">18</S>
+   <S tip="x">-sh/6+3</S><S tip="y">-vs/4+62</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
  <E m='ml' kr='0'>
    <S tip="dx">gl-28</S><S tip="dy">82</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">-vs/2+41</S><S tip="z">-14</S>
+   <S tip="x">-sh/6+3</S><S tip="y">-vs/2+41</S><S tip="z">-14</S>
    <S tip="py">1.570796</S>
  </E>
 
