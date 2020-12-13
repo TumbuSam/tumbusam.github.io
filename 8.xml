@@ -104,8 +104,8 @@
 
 
  <E m='ml' kr='15'>
-   <S tip="dx">sh/3-24+16</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
-   <S tip="x">-sh/3+6</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja1</S>
+   <S tip="dx">sh/3-24+16+10</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
+   <S tip="x">-sh/3+6-5</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja1</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/2-76-20</S><S tip="dz">18</S>
@@ -133,8 +133,8 @@
  </E>
 
  <E m='ml' kr='15'>
-   <S tip="dx">sh/3-24+16</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
-   <S tip="x">sh/3-6</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja3</S>
+   <S tip="dx">sh/3-24+16+10</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
+   <S tip="x">sh/3-6+5</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja3</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/2-76-20</S><S tip="dz">18</S>
