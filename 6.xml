@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<M Name="Столик">
+<M Name="Тумба">
   <S id='sh' Name='Ширина' min='800' max='1000' step='1' >900</S>
   <S id='gl' Name='Глубина' min='400' max='600' step='1' >500</S>
   <S id='vs' Name='Высота' min='300' max='450' step='1' >350</S>
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
   <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S>
 
-  <E m='ml' kr='15'>
+ <E m='ml1' kr='15'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">18</S>
-   <S tip="x"></S><S tip="y">vs/2+18</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+9</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
-
+ <E m='ml1' kr='3'>
+   <S tip="dx">gl</S><S tip="dy">vs-36</S><S tip="dz">18</S>
+   <S tip="x">sh/2-9</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml1' kr='15'>
+   <S tip="dx">260</S><S tip="dy">gl</S><S tip="dz">18</S>
+   <S tip="x">sh/2-130</S><S tip="y">vs/2-9</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='15'>
+   <S tip="dx">sh-280</S><S tip="dy">gl-100</S><S tip="dz">18</S>
+   <S tip="x">-50</S><S tip="y">-vs/2+97</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='15'>
+   <S tip="dx">sh-280</S><S tip="dy">gl-100</S><S tip="dz">18</S>
+   <S tip="x">-50</S><S tip="y">vs/2-97</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+ <E m='ml' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">vs-194</S><S tip="dz">18</S>
+   <S tip="x">-50-sh/2+140+9</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">vs-194</S><S tip="dz">18</S>
+   <S tip="x">-50+sh/2-140-9</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml1' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
+   <S tip="x">-50+sh/2-140-9-30</S><S tip="y">vs/2-18-35</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml1' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
+   <S tip="x">-50-sh/2+140+9+60</S><S tip="y">-vs/2+18+35</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml1' kr='3'>
+   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
+   <S tip="x">-50+sh/2-140-9-60</S><S tip="y">-vs/2+18+35</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
 
 </M>
 
