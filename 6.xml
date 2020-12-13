@@ -4,7 +4,7 @@
   <S id='gl' Name='Глубина' min='350' max='600' step='1' >550</S>
   <S id='vs' Name='Высота' min='400' max='550' step='1' >466</S>
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1004</S>
-  <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S>
+  <S1 id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S1>
 
  <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">36</S>
