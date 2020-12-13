@@ -87,15 +87,15 @@
    <S tip="x">-sh/6+12+22</S><S tip="y">-vs/4+62</S><S tip="z">5+ja2</S>
    <S tip="py">1.570796</S>
  </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/3-24-62</S><S tip="dy">vs/2-76-20</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-vs/4+62</S><S tip="z">gl/2-9+ja2</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/3-24-62</S><S tip="dy">vs/2-76-20</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-vs/4+62</S><S tip="z">-gl/2+19+ja2</S>
+ </E>
 <K>
- <E m='ml' kr='4'>
-   <S tip="dx">sh-62</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-9</S>
- </E>
- <E m='ml' kr='4'>
-   <S tip="dx">sh-62</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">-gl/2+19</S>
- </E>
  <E m='ml1'>
    <S tip="dx">gl-10</S><S tip="dy">sh-26</S><S tip="dz">4</S>
    <S tip="x">0</S><S tip="y">-vs/2+8</S><S tip="z">5</S>
