@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Тумба">
   <S id='sh' Name='Ширина' min='800' max='1500' step='1' >1306</S>
-  <S id='gl' Name='Глубина' min='3500' max='600' step='1' >550</S>
+  <S id='gl' Name='Глубина' min='350' max='600' step='1' >550</S>
   <S id='vs' Name='Высота' min='400' max='550' step='1' >466</S>
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1</S>
   <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S>
