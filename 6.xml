@@ -6,7 +6,7 @@
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>1004</S>
   <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>2</S>
 
- <E m='ml' kr='15'>
+ <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">36</S>
    <S tip="x">0</S><S tip="y">vs/2-18</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
