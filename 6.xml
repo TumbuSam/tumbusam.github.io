@@ -37,6 +37,12 @@
    <S tip="py">1.570796</S>
  </E>
 
+ <E m='ml' kr='2'>
+   <S tip="dx">gl</S><S tip="dy">vs/2-76</S><S tip="dz">18</S>
+   <S tip="x">0</S><S tip="y">-vs/4+62</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+
 
 </M>
 
