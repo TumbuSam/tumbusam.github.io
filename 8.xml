@@ -70,34 +70,6 @@
  </E>
 
 
- <E m='ml' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs+OtV+OtN</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">OtV/2-OtN/2</S><S tip="z">gl/2-6</S>
- </E>
- <E m='ml' kr='5'>
-   <S tip="dx">gl-30</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">sh/2-22</S><S tip="y">0</S><S tip="z">0</S>
-   <S tip="py">1.570796</S>
- </E>
- <E m='ml' kr='5'>
-   <S tip="dx">gl-30</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">-sh/2+22</S><S tip="y">0</S><S tip="z">0</S>
-   <S tip="py">1.570796</S>
- </E>
- <E m='ml' kr='4'>
-   <S tip="dx">sh-62</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-24</S>
- </E>
- <E m='ml' kr='4'>
-   <S tip="dx">sh-62</S><S tip="dy">vs-20</S><S tip="dz">18</S>
-   <S tip="x">0</S><S tip="y">0</S><S tip="z">-gl/2+24</S>
- </E>
- <E m='ml1'>
-   <S tip="dx">gl-30</S><S tip="dy">sh-26</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">-vs/2+8</S><S tip="z">0</S>
-   <S tip="px">-1.570796</S>
-   <S tip="pz">1.570796</S>
- </E>
 
 </M>
 
