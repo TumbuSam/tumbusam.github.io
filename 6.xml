@@ -26,21 +26,7 @@
    <S tip="x">-50+sh/2-140-9</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
- <E m='ml1' kr='3'>
-   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
-   <S tip="x">-50+sh/2-140-9-30</S><S tip="y">vs/2-18-35</S><S tip="z">0</S>
-   <S tip="py">1.570796</S>
- </E>
- <E m='ml1' kr='3'>
-   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
-   <S tip="x">-50-sh/2+140+9+60</S><S tip="y">-vs/2+18+35</S><S tip="z">0</S>
-   <S tip="py">1.570796</S>
- </E>
- <E m='ml1' kr='3'>
-   <S tip="dx">gl-100</S><S tip="dy">70</S><S tip="dz">18</S>
-   <S tip="x">-50+sh/2-140-9-60</S><S tip="y">-vs/2+18+35</S><S tip="z">0</S>
-   <S tip="py">1.570796</S>
- </E>
+
 
 </M>
 
