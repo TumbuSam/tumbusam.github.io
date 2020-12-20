@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<M Name="Тумба с ящиками">
-  <S id='sh' Name='Ширина' min='800' max='1500' step='1' >1306</S>
+<M Name="Полка с ящиками">
+  <S id='sh' Name='Ширина' min='800' max='1500' step='1' >1200</S>
   <S id='gl' Name='Глубина' min='350' max='600' step='1' >550</S>
-  <S id='vs' Name='Высота' min='400' max='550' step='1' >466</S>
+  <S id='vs' Name='Высота' min='1400' max='1550' step='1' >1468</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
   <S id='ja1' Name='Ящик1' min='0' max='300' step='1' >0.1</S>
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
   <S id='ja3' Name='Ящик3' min='0' max='300' step='1' >0.1</S>
+  <S id='ja4' Name='Ящик4' min='0' max='300' step='1' >0.1</S>
+  <S id='ja5' Name='Ящик5' min='0' max='300' step='1' >0.1</S>
+  <S id='ja6' Name='Ящик6' min='0' max='300' step='1' >0.1</S>
 
  <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">36</S>
