@@ -68,14 +68,13 @@
    <S tip="py">1.570796</S>
  </E>
 
-
-<K>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-36</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">32</S><S tip="z">0</S>
+   <S tip="dx">sh-2*tl</S><S tip="dy">gl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">50-tl</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
+<K>
 
  <E m='ml' kr='15'>
    <S tip="dx">sh/3-24+16</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
