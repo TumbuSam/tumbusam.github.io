@@ -17,13 +17,13 @@
  </E>
 
  <E m='ml' kr='2'>
-   <S tip="dx">gl</S><S tip="dy">vs-36</S><S tip="dz">tl</S>
-   <S tip="x">-sh/2+9</S><S tip="y">-18</S><S tip="z">0</S>
+   <S tip="dx">gl</S><S tip="dy">vs-tl*2</S><S tip="dz">tl</S>
+   <S tip="x">-sh/2+tl/2</S><S tip="y">-tl</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='2'>
-   <S tip="dx">gl</S><S tip="dy">vs-36</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-9</S><S tip="y">-18</S><S tip="z">0</S>
+   <S tip="dx">gl</S><S tip="dy">vs-tl*2</S><S tip="dz">tl</S>
+   <S tip="x">sh/2-tl/2</S><S tip="y">-tl</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='0'>
