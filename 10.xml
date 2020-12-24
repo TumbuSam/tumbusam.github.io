@@ -48,7 +48,7 @@
  </E>
  <E m='ml' kr='0'>
    <S tip="dx">gl-10-tl</S><S tip="dy">100-tl</S><S tip="dz">tl</S>
-   <S tip="x">sh/6-4*tl/6+tl/2</S><S tip="y">-vs/2+41</S><S tip="z">-5-tl/2</S>
+   <S tip="x">sh/6-4*tl/6+tl/2</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">-5-tl/2</S>
    <S tip="py">1.570796</S>
  </E>
 
@@ -64,7 +64,7 @@
  </E>
  <E m='ml' kr='0'>
    <S tip="dx">gl-10-tl</S><S tip="dy">100-tl</S><S tip="dz">tl</S>
-   <S tip="x">-sh/6+4*tl/6-tl/2</S><S tip="y">-vs/2+41</S><S tip="z">-5-tl/2</S>
+   <S tip="x">-sh/6+4*tl/6-tl/2</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">-5-tl/2</S>
    <S tip="py">1.570796</S>
  </E>
 
