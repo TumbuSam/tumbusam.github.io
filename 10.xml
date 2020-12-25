@@ -114,8 +114,8 @@ y0=75-vs/4-3*tl/4
 
 
  <E m='ml' kr='15'>
-   <S tip="dx">sh/3-4*tl/3+tl-2</S><S tip="dy">vs/2-50-3*tl/2+2*tl</S><S tip="dz">tl</S>
-   <S tip="x">sh/3-tl/3</S><S tip="y">75-vs/4-3*tl/4</S><S tip="z">gl/2+tl/2+ja3</S>
+   <S tip="dx">sh/3-4*tl/3+tl/2-1+tl</S><S tip="dy">vs/2-50-3*tl/2+2*tl</S><S tip="dz">tl</S>
+   <S tip="x">tl/4+1/2+sh/3-tl/3</S><S tip="y">75-vs/4-3*tl/4</S><S tip="z">gl/2+tl/2+ja3</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/2-50-3*tl/2-20</S><S tip="dz">tl</S>
