@@ -9,9 +9,9 @@
   <S id='ja1' Name='Ящик1' min='0' max='300' step='1' >0.1</S>
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
   <S id='ja3' Name='Ящик3' min='0' max='300' step='1' >0.1</S>
-  <S id='ugl1' Name='Дверь1' min='0' max='1.74' step='0.01' >0.1</S>
-  <S id='ugl2' Name='Дверь2' min='0' max='1.74' step='0.01' >0.1</S>
-  <S id='ugl3' Name='Дверь3' min='0' max='1.74' step='0.01' >0.1</S>
+  <S id='ugl1' Name='Дверь1' min='0' max='1.74' step='0.01' >0.01</S>
+  <S id='ugl2' Name='Дверь2' min='0' max='1.74' step='0.01' >0.01</S>
+  <S id='ugl3' Name='Дверь3' min='0' max='1.74' step='0.01' >0.01</S>
   <S id='ja4' Name='Ящик4' min='0' max='300' step='1' >0.1</S>
   <S id='ja5' Name='Ящик5' min='0' max='300' step='1' >0.1</S>
   <S id='ja6' Name='Ящик6' min='0' max='300' step='1' >0.1</S>
@@ -72,7 +72,7 @@
 
  <E m='ml' kr='2'>
    <S tip="dx">gl</S><S tip="dy">vs/2+20</S><S tip="dz">tl</S>
-   <S tip="x">sh/12</S><S tip="y">vs/4-110</S><S tip="z">0</S>
+   <S tip="x">sh/12</S><S tip="y">-vs/4+110</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='0'>
