@@ -81,6 +81,17 @@
    <S tip="py">1.570796</S>
  </E>
 
+ <E m='ml' kr='2'>
+   <S tip="dx">gl</S><S tip="dy">vs-220-3*tl</S><S tip="dz">tl</S>
+   <S tip="x">-sh/12</S><S tip="y">-10-3*tl/2</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='0'>
+   <S tip="dx">gl-10-tl</S><S tip="dy">100-tl</S><S tip="dz">tl</S>
+   <S tip="x">-sh/12</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">-5-tl/2</S>
+   <S tip="py">1.570796</S>
+ </E>
+
 
 <K>
 
