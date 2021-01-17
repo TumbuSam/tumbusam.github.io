@@ -4,6 +4,8 @@
   <S id='gl' Name='Глубина' min='350' max='600' step='1' >550</S>
   <S id='vs' Name='Высота' min='1300' max='1600' step='1' >1468</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
+  <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
+  <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>179</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
   <S id='ja1' Name='Ящик1' min='0' max='300' step='1' >0.1</S>
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
@@ -76,7 +78,9 @@
  </E>
 
 
- <E m='ml' kr='15'>
+
+
+ <E m='ml2' kr='15'>
    <S tip="dx">sh/3-24+16</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
    <S tip="x">0</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja2</S>
  </E>
@@ -106,7 +110,7 @@
  </E>
 
 
- <E m='ml' kr='15'>
+ <E m='ml2' kr='15'>
    <S tip="dx">sh/3-24+16+10</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
    <S tip="x">-sh/3+6-5</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja1</S>
  </E>
@@ -135,7 +139,7 @@
    <S tip="pz">1.570796</S>
  </E>
 
- <E m='ml' kr='15'>
+ <E m='ml2' kr='15'>
    <S tip="dx">sh/3-24+16+10</S><S tip="dy">vs/2-76+36</S><S tip="dz">18</S>
    <S tip="x">sh/3-6+5</S><S tip="y">-vs/4+62</S><S tip="z">gl/2+9+ja3</S>
  </E>
