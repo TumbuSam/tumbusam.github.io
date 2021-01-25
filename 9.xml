@@ -47,8 +47,8 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='2'>
-   <S tip="dx">gl</S><S tip="dy">vs/2-50-3*tl/2</S><S tip="dz">tl</S>
-   <S tip="x">sh/6-tl/2</S><S tip="y">-vs/2+100+vs/4-25-3*tl/4</S><S tip="z">0</S>
+   <S tip="dx">gl</S><S tip="dy">400</S><S tip="dz">tl</S>
+   <S tip="x">sh/6-tl/2</S><S tip="y">-vs/2+100+200</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='0'>
@@ -64,8 +64,8 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='2'>
-   <S tip="dx">gl</S><S tip="dy">vs/2-50-3*tl/2</S><S tip="dz">tl</S>
-   <S tip="x">-sh/6+tl/2</S><S tip="y">-vs/2+100+vs/4-25-3*tl/4</S><S tip="z">0</S>
+   <S tip="dx">gl</S><S tip="dy">400</S><S tip="dz">tl</S>
+   <S tip="x">-sh/6+tl/2</S><S tip="y">-vs/2+100+200</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='0'>
