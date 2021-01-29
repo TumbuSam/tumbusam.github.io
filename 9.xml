@@ -119,7 +119,7 @@
 
 
 
- <E m='ml' kr='15'>
+ <E m='ml2' kr='15'>
    <S tip="dx">sh/3-tl*2+8+8</S><S tip="dy">200+18-1</S><S tip="dz">tl</S>
    <S tip="x">0</S><S tip="y">9+1/2</S><S tip="z">gl/2+tl/2+ja2</S>
  </E>
