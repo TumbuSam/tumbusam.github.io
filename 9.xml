@@ -80,6 +80,13 @@
    <S tip="px">1.570796</S>
  </E>
 
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/3-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
+
+
 
 <K>
 
