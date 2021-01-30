@@ -2,9 +2,10 @@
 <M Name="Тумба с ящиками">
   <S id='sh' Name='Ширина' min='1500' max='2500' step='1' >2155</S>
   <S id='gl' Name='Глубина' min='350' max='600' step='1' >500</S>
-  <S id='vs' Name='Высота' min='400' max='800' step='1' >624</S>
+  <S id='vs' Name='Высота' min='500' max='800' step='1' >624</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
+  <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>176</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
   <S id='ja1' Name='Ящик1' min='0' max='300' step='1' >0.1</S>
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
