@@ -95,7 +95,7 @@
 
  <E m='ml1'>
    <S tip="dx">sh/2+tl</S><S tip="dy">vs-2*tl-220</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100+vs/2-1*tl-110</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+100+vs/2-1*tl-110</S><S tip="z">-gl/2-2</S>
  </E>
 
 <K>
