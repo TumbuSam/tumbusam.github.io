@@ -93,8 +93,14 @@
    <S tip="py">1.570796</S>
  </E>
 
+ <E m='ml1'>
+   <S tip="dx">vs-2*tl-220</S><S tip="dy">sh/2+tl</S><S tip="dz">4</S>
+   <S tip="x">0</S><S tip="y">-vs/2+100+vs/2-1*tl-110</S><S tip="z">0</S>
+ </E>
 
 <K>
+
+
 x -sh/2+sh/8+tl/4
 y -vs/2+100+vs/6-100/6-2*tl/6
 </K>
