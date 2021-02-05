@@ -278,7 +278,7 @@
  </E>
 
  <E m='ml2' kr='15'>
-   <S tip="dx">sh/6-tl/2-2</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
+   <S tip="dx">sh/6-tl/2-3</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
    <S tip="x">-sh/6+tl/4+1</S><S tip="y">-10-3*tl/2</S><S tip="z">gl/2+tl/2</S>
  </E>
 
@@ -288,7 +288,7 @@
  </E>
 
  <E m='ml2' kr='15'>
-   <S tip="dx">sh/6-tl/2-2</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
+   <S tip="dx">sh/6-tl/2-3</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
    <S tip="x">sh/6-tl/4-1</S><S tip="y">-10-3*tl/2</S><S tip="z">gl/2+tl/2</S>
  </E>
 
