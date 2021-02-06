@@ -6,7 +6,7 @@
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
   <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>176</S>
-  <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
+  <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>452</S>
   <S id='ja1' Name='Ящик1' min='0' max='300' step='1' >0.1</S>
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
   <S id='ja3' Name='Ящик3' min='0' max='300' step='1' >0.1</S>
