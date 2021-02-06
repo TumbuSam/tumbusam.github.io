@@ -288,7 +288,7 @@
     <S tip="x">sh/12-15+(0-sh/12+15)*Math.cos(ugl2)+(gl/2+tl/2-gl/2-16)*Math.sin(ugl2)</S>
     <S tip="y">-10-3*tl/2</S>
     <S tip="z">gl/2+16+(gl/2+tl/2-gl/2-16)*Math.cos(ugl2)-(0-sh/12+15)*Math.sin(ugl2)</S>
-   <S tip="py">ugl2</S><S tip="pz">1.570796</S>
+   <S tip="py">ugl2</S>
  </E>
 
  <E m='ml2' kr='15'>
