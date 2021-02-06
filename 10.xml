@@ -17,7 +17,7 @@
   <S id='ja5' Name='Ящик5' min='0' max='300' step='1' >0.1</S>
   <S id='ja6' Name='Ящик6' min='0' max='300' step='1' >0.1</S>
 
- <E m='ml' kr='7'>
+ <E m='ml' kr='7' с='Склеить из двух и оклеить'>
    <S tip="dx">sh</S><S tip="dy">gl+tl</S><S tip="dz">tl*2</S>
    <S tip="x">0</S><S tip="y">vs/2-tl</S><S tip="z">tl/2</S>
    <S tip="px">1.570796</S>
@@ -97,9 +97,6 @@
    <S tip="dx">sh/2+tl</S><S tip="dy">vs-tl-220</S><S tip="dz">4</S>
    <S tip="x">0</S><S tip="y">-10-3*tl/2</S><S tip="z">-gl/2+2</S>
  </E>
-
-
-
 
  <E m='ml2' kr='15'>
    <S tip="dx">sh/4-3*tl/2+2*tl-2</S><S tip="dy">vs/3-100/3-2*tl/3-2</S><S tip="dz">tl</S>
@@ -187,8 +184,6 @@
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
-
-
 
  <E m='ml2' kr='15'>
    <S tip="dx">sh/4-3*tl/2+2*tl-2</S><S tip="dy">vs/3-100/3-2*tl/3-2</S><S tip="dz">tl</S>
@@ -302,5 +297,8 @@
    <S tip="py">ugl3</S>
  </E>
 
+ <F Name='Доводчик такой-то' Firma='Блюм'>
+   <S tip="dx">0</S><S tip="dy">0</S><S tip="dz">0</S>
+ </F>
 </M>
 
