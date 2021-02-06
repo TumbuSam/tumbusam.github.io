@@ -280,6 +280,7 @@
  <E m='ml2' kr='15'>
    <S tip="dx">sh/6-tl/2-3</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
    <S tip="x">-sh/6+tl/4+1/2</S><S tip="y">-10-3*tl/2</S><S tip="z">gl/2+tl/2</S>
+
  </E>
 
  <E m='ml2' kr='15'>
@@ -294,15 +295,11 @@
  <E m='ml2' kr='15'>
    <S tip="dx">sh/6-tl/2-3</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
    <S tip="x">sh/6-tl/4-1/2</S><S tip="y">-10-3*tl/2</S><S tip="z">gl/2+tl/2</S>
+    <S tip="x">sh/4-tl/2-15+(sh/6-tl/4-1/2-sh/4+tl/2+15)*Math.cos(ugl3)+(gl/2+tl/2-gl/2-16)*Math.sin(ugl3)</S>
+    <S tip="y">-10-3*tl/2</S>
+    <S tip="z">gl/2+16+(gl/2+tl/2-gl/2-16)*Math.cos(ugl3)-(sh/6-tl/4-1/2-sh/4+tl/2+15)*Math.sin(ugl3)</S>
+   <S tip="py">ugl3</S>
  </E>
-
- <E1 m='ml' kr='15'>
-   <S tip="dx">vs-102</S><S tip="dy">sh/2-2</S><S tip="dz">18</S>
-    <S tip="x">sh/2+26+(sh/4-sh/2-26)*Math.cos(ugl)+(gl/2-gl/2-16)*Math.sin(ugl)</S>
-    <S tip="y">41</S>
-    <S tip="z">gl/2+16+(gl/2-gl/2-16)*Math.cos(ugl)-(sh/4-sh/2-26)*Math.sin(ugl)</S>
-   <S tip="py">ugl</S><S tip="pz">1.570796</S>
- </E1>
 
 </M>
 
