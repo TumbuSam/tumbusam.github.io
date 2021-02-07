@@ -263,7 +263,6 @@
 
  <E1 m='ml2' kr='15'>
    <S tip="dx">sh/4-tl/2-3</S><S tip="dy">vs-tl-220</S><S tip="dz">tl</S>
-   <S tip="x">-sh/6+tl/4+1/2</S><S tip="y">-10-3*tl/2</S><S tip="z">gl/2+tl/2</S>
     <S tip="x">-sh/4+tl/2+15+(-sh/8+tl/4-1/2+sh/4-tl/2-15)*Math.cos(-ugl1)+(gl/2+tl/2-gl/2-16)*Math.sin(-ugl1)</S>
     <S tip="y">-10-3*tl/2</S>
     <S tip="z">gl/2+16+(gl/2+tl/2-gl/2-16)*Math.cos(-ugl1)-(-sh/8+tl/4-1/2+sh/4-tl/2-15)*Math.sin(-ugl1)+tl*Math.cos(ugl1)*Math.sin(ugl1)</S>
