@@ -29,6 +29,8 @@
    <S tip="x">sh/2-tl/2</S><S tip="y">-tl/2</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
  </E>
+
+<K>
  <E m='ml' kr='0'>
    <S tip="dx">sh-tl*2</S><S tip="dy">100-tl</S><S tip="dz">tl</S>
    <S tip="x">0</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">gl/2-10-tl/2</S>
@@ -274,8 +276,6 @@
    <S tip="py">ugl2</S>
  </E>
 
- <F Name='Доводчик такой-то' Firma='Блюм'>
-   <S tip="dx">0</S><S tip="dy">0</S><S tip="dz">0</S>
- </F>
+</K>
 </M>
 
