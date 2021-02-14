@@ -97,7 +97,7 @@
    <S tip="x">-sh/2+sh/6+tl/4</S><S tip="y">-vs/2+100+5*vs/6-500/6-10*tl/6</S><S tip="z">-gl/2+10+tl/2+ja1</S>
  </E>
  <E m='ml1'>
-   <S tip="dx">gl-10</S><S tip="dy">sh/4-3*tl/2-26</S><S tip="dz">4</S>
+   <S tip="dx">gl-10</S><S tip="dy">sh/3-3*tl/2-26</S><S tip="dz">4</S>
    <S tip="x">-sh/2+sh/6+tl/4</S><S tip="y">-vs/2+100+5*vs/6-500/6-10*tl/6-vs/6+100/6+2*tl/6+8</S><S tip="z">5+ja1</S>
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
