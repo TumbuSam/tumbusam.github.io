@@ -50,28 +50,13 @@
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-3*tl/2</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+900-3*tl/2</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-3*tl/2+vs/4-25+tl/4</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
 
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-3*tl/2+vs/2-50+tl/2</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
 
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-3*tl/2+3*vs/4-75+3*tl/4</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
-
+ 
 
 
 
