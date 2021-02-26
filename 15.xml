@@ -49,32 +49,32 @@
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+900-3*tl/2</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+900-3*tl/2+vs/4-900/4+tl/4</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2+vs/4-700/4+tl/4</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+900-3*tl/2+vs/2-900/2+tl/2</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2+vs/2-700/2+tl/2</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+900-3*tl/2+3*vs/4-3*900/4+3*tl/4</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2+3*vs/4-3*700/4+3*tl/4</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
   <E m='ml2' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs-900-3</S><S tip="dz">tl</S>
+   <S tip="dx">sh</S><S tip="dy">vs-700-3</S><S tip="dz">tl</S>
     <S tip="x">sh/2-15+(0-sh/2+15)*Math.cos(ugl1)+(gl/2+tl/2-gl/2-16)*Math.sin(ugl1)</S>
-    <S tip="y">450-tl-1/2</S>
+    <S tip="y">350-tl-1/2</S>
     <S tip="z">gl/2+16+(gl/2+tl/2-gl/2-16)*Math.cos(ugl1)-(0-sh/2+15)*Math.sin(ugl1)+tl*Math.cos(ugl1)*Math.sin(ugl1)</S>
    <S tip="py">ugl1</S>
  </E>
