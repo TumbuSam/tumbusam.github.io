@@ -55,7 +55,7 @@
 
  <Et  m='ml'>
    <S tip="dx">sh-tl*2</S><S tip="dd">20</S>
-   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2+vs/4-700/4+tl/4</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+700-3*tl/2+3*vs/4-3*700/4+3*tl/4-100</S><S tip="z">0</S>
    <S tip="pz">1.570796</S>
  </Et>
 
