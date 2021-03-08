@@ -197,44 +197,6 @@
 				scene1.add( axes );
 
 				// ---------------------------------------------------------------------
-				// Simple geometry with basic material
-				// ---------------------------------------------------------------------
-				// Icosahedron
-				const mapGrid = new THREE.TextureLoader().load( 'textures/uv_grid_opengl.jpg' );
-				mapGrid.wrapS = mapGrid.wrapT = THREE.RepeatWrapping;
-				material = new THREE.MeshBasicMaterial( {
-					color: 0xffffff,
-					map: mapGrid
-				} );
-
-				object = new THREE.Mesh( new THREE.IcosahedronGeometry( 75, 0 ), material );
-				object.position.set( - 200, 0, 200 );
-				object.name = 'Icosahedron';
-				scene1.add( object );
-
-				// Octahedron
-				material = new THREE.MeshBasicMaterial( {
-					color: 0x0000ff,
-					wireframe: true
-				} );
-				object = new THREE.Mesh( new THREE.OctahedronGeometry( 75, 1 ), material );
-				object.position.set( 0, 0, 200 );
-				object.name = 'Octahedron';
-				scene1.add( object );
-
-				// Tetrahedron
-				material = new THREE.MeshBasicMaterial( {
-					color: 0xff0000,
-					transparent: true,
-					opacity: 0.5
-				} );
-
-				object = new THREE.Mesh( new THREE.TetrahedronGeometry( 75, 0 ), material );
-				object.position.set( 200, 0, 200 );
-				object.name = 'Tetrahedron';
-				scene1.add( object );
-
-				// ---------------------------------------------------------------------
 				// Buffered geometry primitives
 				// ---------------------------------------------------------------------
 				// Sphere
@@ -269,24 +231,6 @@
 				object.position.set( - 200, 0, 0 );
 				object.name = "Cylinder";
 				scene1.add( object );
-
-
-				// ---------------------------------------------------------------------
-				// Hierarchy
-				// ---------------------------------------------------------------------
-				const mapWood = new THREE.TextureLoader().load( 'textures/hardwood2_diffuse.jpg' );
-				material = new THREE.MeshStandardMaterial( { map: mapWood, side: THREE.DoubleSide } );
-
-				object = new THREE.Mesh( new THREE.BoxGeometry( 40, 100, 100 ), material );
-				object.position.set( - 200, 0, 400 );
-				object.name = "Cube";
-				scene1.add( object );
-
-				object2 = new THREE.Mesh( new THREE.BoxGeometry( 40, 40, 40, 2, 2, 2 ), material );
-				object2.position.set( 0, 0, 50 );
-				object2.rotation.set( 0, 45, 0 );
-				object2.name = "SubCube";
-				object.add( object2 );
 
 
 				// ---------------------------------------------------------------------
