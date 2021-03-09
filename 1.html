@@ -44,6 +44,104 @@
 
 			import { OrbitControls } from './js/OrbitControls.js';
 
+			import { GLTFExporter } from './js/GLTFExporter.js';
+
+			function exportGLTF( input ) {
+
+				const gltfExporter = new GLTFExporter();
+
+				const options = {
+					trs: document.getElementById( 'option_trs' ).checked,
+					onlyVisible: document.getElementById( 'option_visible' ).checked,
+					truncateDrawRange: document.getElementById( 'option_drawrange' ).checked,
+					binary: document.getElementById( 'option_binary' ).checked,
+					maxTextureSize: Number( document.getElementById( 'option_maxsize' ).value ) || Infinity // To prevent NaN value
+				};
+				gltfExporter.parse( input, function ( result ) {
+
+					if ( result instanceof ArrayBuffer ) {
+
+						saveArrayBuffer( result, 'scene.glb' );
+
+					} else {
+
+						const output = JSON.stringify( result, null, 2 );
+						console.log( output );
+						saveString( output, 'scene.gltf' );
+
+					}
+
+				}, options );
+
+			}
+
+			document.getElementById( 'export_scene' ).addEventListener( 'click', function () {
+
+				exportGLTF( scene1 );
+
+			} );
+
+			document.getElementById( 'export_scenes' ).addEventListener( 'click', function () {
+
+				exportGLTF( [ scene1, scene2 ] );
+
+			} );
+
+			document.getElementById( 'export_object' ).addEventListener( 'click', function () {
+
+				exportGLTF( sphere );
+
+			} );
+
+			document.getElementById( 'export_obj' ).addEventListener( 'click', function () {
+
+				exportGLTF( waltHead );
+
+			} );
+
+			document.getElementById( 'export_objects' ).addEventListener( 'click', function () {
+
+				exportGLTF( [ sphere, gridHelper ] );
+
+			} );
+
+			document.getElementById( 'export_scene_object' ).addEventListener( 'click', function () {
+
+				exportGLTF( [ scene1, gridHelper ] );
+
+			} );
+
+
+			const link = document.createElement( 'a' );
+			link.style.display = 'none';
+			document.body.appendChild( link ); // Firefox workaround, see #6594
+
+			function save( blob, filename ) {
+
+				link.href = URL.createObjectURL( blob );
+				link.download = filename;
+				link.click();
+
+				// URL.revokeObjectURL( url ); breaks Firefox...
+
+			}
+
+			function saveString( text, filename ) {
+
+				save( new Blob( [ text ], { type: 'text/plain' } ), filename );
+
+			}
+
+
+			function saveArrayBuffer( buffer, filename ) {
+
+				save( new Blob( [ buffer ], { type: 'application/octet-stream' } ), filename );
+
+			}
+
+
+
+
 			var camera, scene, renderer;
 
 			var grid, wheels = [];
