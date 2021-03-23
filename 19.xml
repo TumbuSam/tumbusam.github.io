@@ -24,14 +24,14 @@
 
  <E m='ml' kr='4'>
    <S tip="dx">vs-tl-138</S><S tip="dy">gl-39</S><S tip="dz">tl</S>
-   <S tip="x">-sh/2+tl/2</S><S tip="y">tl/2+138/2</S><S tip="z">10-39/2</S>
+   <S tip="x">-sh/2+tl/2</S><S tip="y">tl/2+50-19</S><S tip="z">10-39/2</S>
    <S tip="py">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
 
  <E m='ml' kr='4'>
    <S tip="dx">vs-tl-138</S><S tip="dy">gl-39</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-tl/2</S><S tip="y">tl/2+138/2</S><S tip="z">10-39/2</S>
+   <S tip="x">sh/2-tl/2</S><S tip="y">tl/2+50-19</S><S tip="z">10-39/2</S>
    <S tip="py">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
