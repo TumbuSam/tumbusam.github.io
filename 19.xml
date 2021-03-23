@@ -4,10 +4,17 @@
   <S id='gl' Name='Глубина' min='600' max='600' step='1' >600</S>
   <S id='vs' Name='Высота' min='860' max='860' step='1' >860</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>371</S>
-  <S1 id='tl' Name='Толщина' min='16' max='18' step='2' >18</S1>
+  <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
   <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>296</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
   <S id='ugl1' Name='Дверь' min='0' max='1.6' step='0.01' >0.001</S>
+  <S id='ml3' Name='Столешница' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>124</S>
+
+ <E m='ml3' kr='15'>
+   <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">38</S>
+   <S tip="x">0</S><S tip="y">vs/2</S><S tip="z">0</S>
+   <S tip="px">1.570796</S>
+ </E>
 
  <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl-39</S><S tip="dz">tl</S>
