@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Шкаф с ящиками">
-  <S id='sh' Name='Ширина' min='616' max='616' step='1' >616</S>
+  <S id='sh' Name='Ширина' min='400' max='700' step='1' >616</S>
   <S id='gl' Name='Глубина' min='600' max='600' step='1' >600</S>
   <S id='vs' Name='Высота' min='860' max='860' step='1' >860</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>371</S>
