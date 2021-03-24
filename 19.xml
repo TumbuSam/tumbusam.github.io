@@ -49,8 +49,8 @@
  </E>
 
  <Et  m='ml'>
-   <S tip="dx">80</S><S tip="dd">20</S>
-   <S tip="x">180</S><S tip="y">-vs/2+60</S><S tip="z">180</S>
+   <S tip="dx">76</S><S tip="dd">20</S>
+   <S tip="x">180</S><S tip="y">-vs/2+60-2</S><S tip="z">180</S>
  </Et>
 
  <Et  m='ml'>
@@ -59,75 +59,14 @@
  </Et>
 
  <Et  m='ml'>
-   <S tip="dx">80</S><S tip="dd">20</S>
-   <S tip="x">-180</S><S tip="y">-vs/2+60</S><S tip="z">180</S>
+   <S tip="dx">4</S><S tip="dd">30</S>
+   <S tip="x">180</S><S tip="y">-vs/2+100-2</S><S tip="z">180</S>
  </Et>
 
- <Et  m='ml'>
-   <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">-180</S><S tip="y">-vs/2+10</S><S tip="z">180</S>
- </Et>
 
- <Et  m='ml'>
-   <S tip="dx">80</S><S tip="dd">20</S>
-   <S tip="x">180</S><S tip="y">-vs/2+60</S><S tip="z">-180</S>
- </Et>
-
- <Et  m='ml'>
-   <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">180</S><S tip="y">-vs/2+10</S><S tip="z">-180</S>
- </Et>
-
- <Et  m='ml'>
-   <S tip="dx">80</S><S tip="dd">20</S>
-   <S tip="x">-180</S><S tip="y">-vs/2+60</S><S tip="z">-180</S>
- </Et>
-
- <Et  m='ml'>
-   <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">-180</S><S tip="y">-vs/2+10</S><S tip="z">-180</S>
- </Et>
 
 <K>
- <E m='ml' kr='0'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">100-tl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">gl/2-10-tl/2</S>
- </E>
 
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-tl/2</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
-
- <E m='ml1'>
-   <S tip="dx">sh</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
- </E>
-
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+500-3*tl/2</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
-
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+500-3*tl/2+vs/4-500/4+tl/4</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
-
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+500-3*tl/2+vs/2-500/2+tl/2</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
-
- <E m='ml' kr='4'>
-   <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+500-3*tl/2+3*vs/4-3*500/4+3*tl/4</S><S tip="z">0</S>
-   <S tip="px">1.570796</S>
- </E>
 
   <E m='ml2' kr='15'>
    <S tip="dx">sh</S><S tip="dy">vs-500-3</S><S tip="dz">tl</S>
