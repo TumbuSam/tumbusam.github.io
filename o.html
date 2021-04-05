@@ -121,9 +121,7 @@
 				//
 
 				var geometry = new THREE.BoxGeometry( 30, 30, 30 );
-				// const material = new THREE.MeshStandardMaterial( { roughness: 0 } );
-				var material = new THREE.MeshLambertMaterial({map: new THREE.TextureLoader().load('./img/p.png'), side: THREE.DoubleSide});
-				//var material = new THREE.MeshStandardMaterial({map: new THREE.TextureLoader().load('./img/p.png'), side: THREE.DoubleSide});
+				var material = new THREE.MeshStandardMaterial({map: new THREE.TextureLoader().load('./img/p.png'), side: THREE.DoubleSide});
 
 				mesh = new THREE.Mesh( geometry, material );
 				scene.add( mesh );
