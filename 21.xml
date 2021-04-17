@@ -56,62 +56,62 @@
 
  <Et  m='ml'>
    <S tip="dx">76</S><S tip="dd">20</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+60-2</S><S tip="z">gl/2-35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+60-2</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+10</S><S tip="z">gl/2-35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+10</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">4</S><S tip="dd">30</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+100-2</S><S tip="z">gl/2-35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+100-2</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">76</S><S tip="dd">20</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+60-2</S><S tip="z">gl/2-35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+60-2</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+10</S><S tip="z">gl/2-35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+10</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">4</S><S tip="dd">30</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+100-2</S><S tip="z">gl/2-35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+100-2</S><S tip="z">gl/2-45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">76</S><S tip="dd">20</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+60-2</S><S tip="z">-gl/2+35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+60-2</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+10</S><S tip="z">-gl/2+35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+10</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">4</S><S tip="dd">30</S>
-   <S tip="x">gl/2-35</S><S tip="y">-vs/2+100-2</S><S tip="z">-gl/2+35</S>
+   <S tip="x">sh/2-45</S><S tip="y">-vs/2+100-2</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">76</S><S tip="dd">20</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+60-2</S><S tip="z">-gl/2+35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+60-2</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">20</S><S tip="dd">40</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+10</S><S tip="z">-gl/2+35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+10</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <Et  m='ml'>
    <S tip="dx">4</S><S tip="dd">30</S>
-   <S tip="x">-gl/2+35</S><S tip="y">-vs/2+100-2</S><S tip="z">-gl/2+35</S>
+   <S tip="x">-sh/2+45</S><S tip="y">-vs/2+100-2</S><S tip="z">-gl/2+45</S>
  </Et>
 
  <E m='ml1'>
