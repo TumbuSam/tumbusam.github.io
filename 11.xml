@@ -16,7 +16,7 @@
   <S id='ja5' Name='Ящик5' min='0' max='300' step='1' >0.1</S>
   <S id='ja6' Name='Ящик6' min='0' max='300' step='1' >0.1</S>
 
- <E m='ml' kr='7' с='Склеить из двух и оклеить'>
+ <E m='ml' kr='7' pr='Склеить из двух и оклеить'>
    <S tip="dx">sh</S><S tip="dy">gl+tl</S><S tip="dz">tl*2</S>
    <S tip="x">0</S><S tip="y">vs/2-tl</S><S tip="z">tl/2</S>
    <S tip="px">1.570796</S>
