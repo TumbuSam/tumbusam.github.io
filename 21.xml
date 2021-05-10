@@ -8,13 +8,13 @@
   <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>130</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>448</S>
   <S id='ugl1' Name='Дверь' min='0' max='1.6' step='0.01' >0.001</S>
-  <S id='ml3' Name='Столешница' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>124</S>
+  <S1 id='ml3' Name='Столешница' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>124</S1>
 
- <E m='ml3' kr='15'>
+ <E1 m='ml3' kr='15'>
    <S tip="dx">sh</S><S tip="dy">600</S><S tip="dz">38</S>
    <S tip="x">0</S><S tip="y">vs/2-19</S><S tip="z">gl/2+35-300</S>
    <S tip="px">1.570796</S>
- </E>
+ </E1>
 
  <E m='ml' kr='7'>
    <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">tl</S>
@@ -36,15 +36,15 @@
    <S tip="pz">1.570796</S>
  </E>
 
- <E m='ml' kr='15'>
+ <E m='ml' kr='12'>
    <S tip="dx">sh-2*tl</S><S tip="dy">100</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">vs/2-38-tl/2</S><S tip="z">gl/2-100</S>
+   <S tip="x">0</S><S tip="y">vs/2-38-tl/2</S><S tip="z">gl/2-50</S>
    <S tip="px">1.570796</S>
  </E>
 
- <E m='ml' kr='15'>
+ <E m='ml' kr='4'>
    <S tip="dx">sh-2*tl</S><S tip="dy">100</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">vs/2-38-tl/2</S><S tip="z">-gl/2+100</S>
+   <S tip="x">0</S><S tip="y">vs/2-38-tl/2</S><S tip="z">-gl/2+50</S>
    <S tip="px">1.570796</S>
  </E>
 
