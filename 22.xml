@@ -2,7 +2,7 @@
 <M Name="Комод с ящиками">
   <S id='sh' Name='Ширина' min='400' max='1000' step='1' >800</S>
   <S id='gl' Name='Глубина' min='350' max='600' step='1' >450</S>
-  <S id='vs' Name='Высота' min='500' max='1400' step='1' >1000</S>
+  <S id='vs' Name='Высота' min='600' max='1400' step='1' >1000</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
   <S id='ml2' Name='Фасад' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>176</S>
@@ -44,7 +44,7 @@
 
  <E m='ml1'>
    <S tip="dx">sh-tl-2</S><S tip="dy">vs-100+tl/2</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">50-3*tl/4</S><S tip="z">-gl/2-2</S>
+   <S tip="x">0</S><S tip="y">50-tl/4-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
 <k>
