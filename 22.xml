@@ -44,7 +44,7 @@
 
  <E m='ml1'>
    <S tip="dx">sh-tl-2</S><S tip="dy">vs-100+tl/2</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">50-tl/4</S><S tip="z">-gl/2-2</S>
+   <S tip="x">0</S><S tip="y">50-3*tl/4</S><S tip="z">-gl/2-2</S>
  </E>
 
 <k>
