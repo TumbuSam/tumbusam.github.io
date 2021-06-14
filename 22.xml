@@ -38,7 +38,7 @@
 
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl-4</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">-vs/2+100-tl/2+2</S><S tip="z">0</S>
+   <S tip="x">0</S><S tip="y">-vs/2+100-tl/2</S><S tip="z">2</S>
    <S tip="px">1.570796</S>
  </E>
 
