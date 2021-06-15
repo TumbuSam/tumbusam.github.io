@@ -47,7 +47,7 @@
    <S tip="x">0</S><S tip="y">50-tl/4-tl/2</S><S tip="z">-gl/2+2</S>
  </E>
 
- <E m='ml' kr='4'>
+ <E m='ml' kr='8'>
    <S tip="dx">sh-tl*2</S><S tip="dy">50</S><S tip="dz">tl</S>
    <S tip="x">0</S><S tip="y">0</S><S tip="z">gl/2-10-tl/2</S>
  </E>
