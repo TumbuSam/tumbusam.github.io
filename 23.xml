@@ -61,6 +61,13 @@
    <S tip="pz">1.570796</S>
  </E>
 
+ <E m='ml' kr='0'>
+   <S tip="dx">100-tl</S><S tip="dy">gl-10-4-tl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">-gl/2+4+gl/2-7-tl/2</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
 <k>
  <E m='ml' kr='8'>
    <S tip="dx">sh-tl*2</S><S tip="dy">50</S><S tip="dz">tl</S>
