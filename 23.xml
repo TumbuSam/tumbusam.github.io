@@ -11,6 +11,10 @@
   <S id='ja2' Name='Ящик2' min='0' max='300' step='1' >0.1</S>
   <S id='ja3' Name='Ящик3' min='0' max='300' step='1' >0.1</S>
   <S id='ja4' Name='Ящик4' min='0' max='300' step='1' >0.1</S>
+  <S id='ja5' Name='Ящик5' min='0' max='300' step='1' >0.1</S>
+  <S id='ja6' Name='Ящик6' min='0' max='300' step='1' >0.1</S>
+  <S id='ja7' Name='Ящик7' min='0' max='300' step='1' >0.1</S>
+  <S id='ja8' Name='Ящик8' min='0' max='300' step='1' >0.1</S>
 
  <E m='ml' kr='7' pr='Выборка четверти по стороне X2'>
    <S tip="dx">sh</S><S tip="dy">gl+tl</S><S tip="dz">tl</S>
@@ -110,14 +114,14 @@
    <S tip="x">sh/4</S><S tip="y">-vs/4+75-tl-20</S><S tip="z">gl/2-10-tl/2</S>
  </E>
 
-<k>
+
  <E m='ml2' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-5/2</S><S tip="z">gl/2+tl/2+ja1</S>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4-1</S><S tip="y">3*vs/8-tl-5/2</S><S tip="z">gl/2+tl/2+ja1</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl</S><S tip="z">5+ja1</S>
+   <S tip="x">-tl-13-tl/2</S><S tip="y">3*vs/8-tl</S><S tip="z">5+ja1</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='5'>
@@ -126,28 +130,27 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl</S><S tip="z">gl/2-tl/2+ja1</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl</S><S tip="z">gl/2-tl/2+ja1</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl</S><S tip="z">-gl/2+10+tl/2+ja1</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl</S><S tip="z">-gl/2+10+tl/2+ja1</S>
  </E>
  <E m='ml1'>
-   <S tip="dx">gl-10</S><S tip="dy">sh-2*tl-26</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/8+50+8</S><S tip="z">5+ja1</S>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8</S><S tip="z">5+ja1</S>
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
 
-
  <E m='ml2' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-5/2-vs/4+25</S><S tip="z">gl/2+tl/2+ja2</S>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4-1</S><S tip="y">3*vs/8-tl-5/2-vs/4+25</S><S tip="z">gl/2+tl/2+ja2</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">5+ja2</S>
+   <S tip="x">-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">5+ja2</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='5'>
@@ -156,28 +159,27 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">gl/2-tl/2+ja2</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">gl/2-tl/2+ja2</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">-gl/2+10+tl/2+ja2</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">-gl/2+10+tl/2+ja2</S>
  </E>
  <E m='ml1'>
-   <S tip="dx">gl-10</S><S tip="dy">sh-2*tl-26</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/4+25</S><S tip="z">5+ja2</S>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/4+25</S><S tip="z">5+ja2</S>
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
 
-
  <E m='ml2' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-5/2-vs/2+50</S><S tip="z">gl/2+tl/2+ja3</S>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4-1</S><S tip="y">3*vs/8-tl-5/2-vs/2+50</S><S tip="z">gl/2+tl/2+ja3</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">5+ja3</S>
+   <S tip="x">-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">5+ja3</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='5'>
@@ -186,28 +188,27 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">gl/2-tl/2+ja3</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">gl/2-tl/2+ja3</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">-gl/2+10+tl/2+ja3</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">-gl/2+10+tl/2+ja3</S>
  </E>
  <E m='ml1'>
-   <S tip="dx">gl-10</S><S tip="dy">sh-2*tl-26</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/2+50</S><S tip="z">5+ja3</S>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/2+50</S><S tip="z">5+ja3</S>
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
 
-
  <E m='ml2' kr='15'>
-   <S tip="dx">sh</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-5/2-3*vs/4+75</S><S tip="z">gl/2+tl/2+ja4</S>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4-1</S><S tip="y">3*vs/8-tl-5/2-3*vs/4+75</S><S tip="z">gl/2+tl/2+ja4</S>
  </E>
  <E m='ml' kr='5'>
    <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">5+ja4</S>
+   <S tip="x">-tl-13-tl/2</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">5+ja4</S>
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='5'>
@@ -216,19 +217,136 @@
    <S tip="py">1.570796</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">gl/2-tl/2+ja4</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">gl/2-tl/2+ja4</S>
  </E>
  <E m='ml' kr='4'>
-   <S tip="dx">sh-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">-gl/2+10+tl/2+ja4</S>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">-gl/2+10+tl/2+ja4</S>
  </E>
  <E m='ml1'>
-   <S tip="dx">gl-10</S><S tip="dy">sh-2*tl-26</S><S tip="dz">4</S>
-   <S tip="x">0</S><S tip="y">3*vs/8-tl-vs/8+50+8-3*vs/4+75</S><S tip="z">5+ja4</S>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">-sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-3*vs/4+75</S><S tip="z">5+ja4</S>
    <S tip="px">-1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
-</k>
+
+
+ <E m='ml2' kr='15'>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">sh/4+1</S><S tip="y">3*vs/8-tl-5/2</S><S tip="z">gl/2+tl/2+ja5</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">tl+13+tl/2</S><S tip="y">3*vs/8-tl</S><S tip="z">5+ja5</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl</S><S tip="z">5+ja5</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl</S><S tip="z">gl/2-tl/2+ja5</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl</S><S tip="z">-gl/2+10+tl/2+ja5</S>
+ </E>
+ <E m='ml1'>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8</S><S tip="z">5+ja5</S>
+   <S tip="px">-1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
+ <E m='ml2' kr='15'>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">sh/4+1</S><S tip="y">3*vs/8-tl-5/2-vs/4+25</S><S tip="z">gl/2+tl/2+ja6</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">tl+13+tl/2</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">5+ja6</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">5+ja6</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">gl/2-tl/2+ja6</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/4+25</S><S tip="z">-gl/2+10+tl/2+ja6</S>
+ </E>
+ <E m='ml1'>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/4+25</S><S tip="z">5+ja6</S>
+   <S tip="px">-1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
+ <E m='ml2' kr='15'>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">sh/4+1</S><S tip="y">3*vs/8-tl-5/2-vs/2+50</S><S tip="z">gl/2+tl/2+ja7</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">tl+13+tl/2</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">5+ja7</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">5+ja7</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">gl/2-tl/2+ja7</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/2+50</S><S tip="z">-gl/2+10+tl/2+ja7</S>
+ </E>
+ <E m='ml1'>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-vs/2+50</S><S tip="z">5+ja7</S>
+   <S tip="px">-1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
+ <E m='ml2' kr='15'>
+   <S tip="dx">sh/2-2</S><S tip="dy">vs/4-100+20+25</S><S tip="dz">tl</S>
+   <S tip="x">sh/4+1</S><S tip="y">3*vs/8-tl-5/2-3*vs/4+75</S><S tip="z">gl/2+tl/2+ja8</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">tl+13+tl/2</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">5+ja8</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='5'>
+   <S tip="dx">gl-10</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/2-tl-13-tl/2</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">5+ja8</S>
+   <S tip="py">1.570796</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">gl/2-tl/2+ja8</S>
+ </E>
+ <E m='ml' kr='4'>
+   <S tip="dx">sh/2-26-4*tl</S><S tip="dy">vs/4-100-20</S><S tip="dz">tl</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-3*vs/4+75</S><S tip="z">-gl/2+10+tl/2+ja8</S>
+ </E>
+ <E m='ml1'>
+   <S tip="dx">gl-10</S><S tip="dy">sh/2-2*tl-26</S><S tip="dz">4</S>
+   <S tip="x">sh/4</S><S tip="y">3*vs/8-tl-vs/8+50+8-3*vs/4+75</S><S tip="z">5+ja8</S>
+   <S tip="px">-1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
 </M>
 
