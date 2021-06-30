@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>pravt</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+	<body>
+
+		<canvas id="heater" width="800" height="400" style="background-color:white;border:1px solid black;">Холст</canvas>
+
+		<script type="module">
+
+    var ParamS = [];
+    var Vrem = [];
+    var Paramy1;
+
+    window.onload = function () {
+//        Param();
+//        @If Request.IsAuthenticated Then
+//            @Html.Raw("setInterval(Param, 10000);")
+//        End If
+
+          Schem();
+//                    @Html.Raw("SchemZ();" & vbCrLf)
+//            @If Request.IsAuthenticated Then
+//                    @Html.Raw("setInterval(SchemZ, 10000);" & vbCrLf)
+//            End If
+          setInterval(Schem, 1000);
+    }
+
+var canvas;
+        var pen;
+        var scale_x = 1;
+        var scale_y = 1;
+        var scale_g = 2;
+
+        function Schema() {
+
+            canvas = document.getElementById("heater");
+            canvas.width = canvas.width;
+
+            pen = canvas.getContext("2d");
+
+            pen.scale(scale_x, scale_y);
+            pen.lineWidth = 2;
+            pen.lineJoin = "round"; 
+            pen.font = '14px Arial';
+
+            line(165, 94, 615, 94, "red", 2);
+            line(165, 174, 615, 174, "blue", 2);
+
+            pen.fillText('Из котельной', 45, 94);
+            pen.fillText('В котельную', 45, 174);
+            //pen.fillText('Из теплосети', 45, 254);
+            //pen.fillText('В теплосеть', 45, 334);
+            //pen.fillText('В систему ГВС', 630, 254);
+            //pen.fillText('Из системы ГВС', 630, 334);
+            pen.fillText('В теплосеть', 630, 94);
+            pen.fillText('Из теплосети', 630, 174);
+
+            //Устройства
+            Thermometer(210, 94, scale_g);
+            Manometr(340, 94, scale_g);
+            Flowmeter(270, 94, scale_g);
+
+            Thermometer(300, 174, scale_g);
+            Manometr(430, 174, scale_g);
+            Flowmeter(360, 174, scale_g);
+
+            //Thermometer(390, 254, scale_g);
+            //Flowmeter(450, 254, scale_g);
+
+            //Thermometer(480, 334, scale_g);
+            //Flowmeter(540, 334, scale_g);
+
+            //Теплосчетчик
+            //pen.fillStyle = "lightgray";
+            //pen.fillRect(540, 20, 35, 45);
+            //pen.fillStyle = "black";
+            //pen.strokeRect(540, 20, 35, 45);
+            //pen.fillStyle = "white";
+            //pen.fillRect(547, 26, 20, 10);
+
+            //line(557, 65, 210, 75, "lightgray", 1);
+            //line(557, 65, 270, 85, "lightgray", 1);
+            //line(557, 65, 300, 155, "lightgray", 1);
+            //line(557, 65, 360, 165, "lightgray", 1);
+            //line(557, 65, 390, 235, "lightgray", 1);
+            //line(557, 65, 450, 245, "lightgray", 1);
+            //line(557, 65, 480, 315, "lightgray", 1);
+            //line(557, 65, 540, 325, "lightgray", 1); 
+
+            pen.fillStyle = "black";
+        }
+        
+        function Flowmeter(x, y, scale) {
+            var curpoint = { x: 0, y: 0 };
+
+            pen.fillStyle = "white";
+            pen.fillRect(x - 17.5 * scale, y - 10 * scale, 35 * scale, 20 * scale)
+            pen.fillStyle = "black";
+
+            pen.lineWidth = 2;
+            curpoint.x = x - 17.5 * scale;
+            curpoint.y = y;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 3.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 8.3 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 18.3 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 18.3 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 2.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 4.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 10.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 10.1 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 4.4 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 10.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 4.4 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 4.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 2.1 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 8.3 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 6.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 2.6 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 6.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 6.0 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 2.6 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 24.5 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 24.5 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 1.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 24.5 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 1.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 2.6 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 6.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 6.0 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 2.6 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 3.0 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+
+            curpoint.x = x + 9.15 * scale;
+            curpoint.y = y + 4 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            pen.quadraticCurveTo(x, y + 10.0 * scale, x - 9.15 * scale, y + 4 * scale);
+
+            pen.stroke();
+        }
+
+        function Thermometer(x, y, scale) {
+            var curpoint = { x: 0, y: 0 };
+            curpoint.x = x;
+            curpoint.y = y;
+            pen.beginPath();
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 7.2 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 5.9 * scale;
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 7.2 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x + 11.8 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            pen.closePath();
+            pen.stroke();
+            pen.beginPath();
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y + 7.2 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 11.8 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            pen.closePath();
+            pen.fill();
+            pen.stroke();
+        }
+
+        function Manometr(x, y, scale) {
+            var curpoint = { x: 0, y: 0 };
+            curpoint.x = x;
+            curpoint.y = y;
+            pen.beginPath();
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.y = curpoint.y - 7.2 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            pen.closePath();
+            pen.stroke();
+
+            pen.beginPath();
+            pen.lineWidth = 2;
+            curpoint.x = x;
+            curpoint.y = y - 10.8 * scale;
+            pen.beginPath();
+            pen.moveTo(curpoint.x, curpoint.y);
+            curpoint.x = curpoint.x - 2.5 * scale;
+            curpoint.y = curpoint.y - 2.5 * scale;
+            pen.lineTo(curpoint.x, curpoint.y);
+            pen.closePath();
+            pen.stroke();
+
+            pen.beginPath();
+            pen.lineWidth = 2;
+            curpoint.x = x;
+            curpoint.y = y - 10.8 * scale;
+            var startingAngle = 0 * Math.PI;
+            var endingAngle = 2 * Math.PI;
+            var counterclockwise = false;
+            pen.arc(curpoint.x, curpoint.y, 3.6 * scale, startingAngle, endingAngle, counterclockwise);
+            pen.closePath();
+            pen.stroke();
+
+         }
+
+        function line(x0, y0, x1, y1, color, width) {
+            pen.beginPath();
+            pen.moveTo(x0, y0);
+            pen.lineTo(x1, y1);
+            pen.closePath();
+            pen.strokeStyle = color;
+            pen.lineWidth = width;
+            pen.stroke();
+            pen.strokeStyle = "black";
+        }
+
+        function Risov(ZN, N_ID) {
+        }
+
+//    function SchemZ() {
+//        @For i As Integer = 0 To Model.TS.Count - 1
+//        @Html.Raw("$.get(""/TPs/ParamS"", { TSID: " & Model.TS(i).TS_ID & ", Tip: '" & Model.TS(i).Tip & "', Nom: " & i & ", Sh_ID: " & Model.ID_Scheme & ", Dat: Date() }, Schem_Ok);" & vbCrLf)
+//    Next
+//
+//    }
+
+    function Schem() {
+        Schema(); //Перерисовать схему
+//        for (var i = 0; i < ParamS.length; i++) {
+//            Paramy1 = '';
+//            if (typeof ParamS[i] != 'undefined') {
+//                if (ParamS[i].length > 0) {
+//                    Paramy1 = ParamS[i];
+//                    do {
+//                        var pos1 = Paramy1.indexOf("|");
+//                        var pos2 = Paramy1.substring(pos1 + 1).indexOf("|");
+//                        var pos3 = Paramy1.substring(pos1 + pos2 + 2).indexOf("|");
+//                        var pos4 = Paramy1.substring(pos1 + pos2 + pos3 + 3).indexOf("|");
+//                        var pos5 = Paramy1.substring(pos1 + pos2 + pos3 + pos4 + 4).indexOf("|");
+//                        pen.fillText(Paramy1.substring(0, pos1) + Paramy1.substring(pos1 + 1, pos1 + pos2 + 1), Paramy1.substring(pos1 + pos2 + 2, pos1 + pos2 + pos3 + 2), Paramy1.substring(pos1 + pos2 + pos3 + 3, pos1 + pos2 + pos3 + pos4 + 3));
+//                        Risov(Paramy1.substring(0, pos1), Paramy1.substring(pos1 + pos2 + pos3 + pos4 + 4, pos1 + pos2 + pos3 + pos4 + pos5 + 4));
+//                        Paramy1 = Paramy1.substring(pos1 + pos2 + pos3 + pos4 + pos5 + 5);
+//                    }
+//                    while (Paramy1.length > 0);
+//                }
+//            }
+//        }
+        if (ParamS.length < 1) {
+            pen.fillText("Загрузка", 1, 12);
+        }
+            else {
+              for (var i = 0; i < Vrem.length; i++) {
+                if (typeof Vrem[i] != 'undefined') {
+                  pen.fillText(timeFormat(Vrem[i] * 1000), 1, 12 + i * 15);
+                  Vrem[i] = Vrem[i] + 1;
+                }
+              }
+            }
+    }
+
+//    function Schem_Ok(Paramy) {
+//        var pos1 = Paramy.indexOf("|");
+//        var pos2 = Paramy.substring(pos1 + 1).indexOf("|");
+//        ParamS[Paramy.substring(0, pos1)] = Paramy.substring(pos1 + pos2 + 2);
+//        Vrem[Paramy.substring(0, pos1)] = Number(Paramy.substring(pos1 + 1, pos1 + pos2 + 1));
+//    }
+
+
+
+//    function Param() {
+//        @For i As Integer = 0 To Model.TS.Count - 1
+//            @If Model.TS(i).sys > 0 Then
+//                @For j As Integer = 0 To Model.TS(i).sys
+//                   @Html.Raw("$.get(""/TPs/Param"", { TSID: " & Model.TS(i).TS_ID & ", sys: " & j & ", Tip: '" & Model.TS(i).Tip & "', Nom: " & i & ", Sh_ID: " & Model.ID_Scheme & ", Dat: Date() }, Param_Ok);" & vbCrLf)
+//               Next
+//            End If
+//        Next
+
+//    }
+
+//    function Param_Ok(Param) {
+
+//        var pos = Param.indexOf("<");
+
+//        $("#" + Param.substring(0, pos)).text("");
+//        $("#" + Param.substring(0, pos)).append(Param.substring(pos));
+//    }
+
+    var timeFormat = (function () {
+        function num(val) {
+            val = Math.floor(val);
+            return val < 10 ? '0' + val : val;
+        }
+
+        return function (ms/**number*/) {
+            var sec = ms / 1000
+              , hours = sec / 3600 % 24
+              , minutes = sec / 60 % 60
+              , seconds = sec % 60
+              , den = sec / 3600 / 24
+            ;
+
+            return num(den) + " " + num(hours) + ":" + num(minutes) + ":" + num(seconds);
+        };
+    })();
+
+		</script>
+	</body>
+</html>
