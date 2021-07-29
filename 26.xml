@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Шкаф с ящиками">
   <S id='sh' Name='Ширина' min='1800' max='3000' step='1' >2700</S>
-  <S id='gl' Name='Глубина' min='350' max='600' step='1' >500</S>
+  <S id='gl' Name='Глубина' min='350' max='700' step='1' >600</S>
   <S id='vs' Name='Высота' min='2000' max='2900' step='1' >2740</S>
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
@@ -12,8 +12,8 @@
   <S id='ugl2' Name='ДверьЦентр' min='0' max='1.6' step='0.01' >0.001</S>
 
  <E m='ml' kr='7'>
-   <S tip="dx">sh</S><S tip="dy">gl+tl</S><S tip="dz">tl</S>
-   <S tip="x">0</S><S tip="y">vs/2-tl/2</S><S tip="z">tl/2</S>
+   <S tip="dx">sh</S><S tip="dy">gl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">vs/2-tl/2</S><S tip="z">0</S>
    <S tip="px">1.570796</S>
  </E>
 
@@ -46,6 +46,7 @@
    <S tip="x">0</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
+<k>
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
    <S tip="x">0</S><S tip="y">-vs/2+500-3*tl/2</S><S tip="z">0</S>
@@ -78,5 +79,6 @@
    <S tip="py">ugl1</S>
  </E>
 
+</k>
 </M>
 
