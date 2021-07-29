@@ -46,6 +46,20 @@
    <S tip="x">0</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
+ <E m='ml' kr='4'>
+   <S tip="dx">vs-tl-100</S><S tip="dy">gl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">50-tl/2</S><S tip="z">2</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
+ <E m='ml' kr='0'>
+   <S tip="dx">100-tl</S><S tip="dy">gl-10-tl</S><S tip="dz">tl</S>
+   <S tip="x">0</S><S tip="y">-vs/2+50-tl/2</S><S tip="z">-5-tl/2</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+
 <k>
  <E m='ml' kr='4'>
    <S tip="dx">sh-tl*2</S><S tip="dy">gl</S><S tip="dz">tl</S>
