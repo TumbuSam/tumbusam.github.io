@@ -13,7 +13,7 @@
 		<script type="module">
 
     var ParamS = [];
-    var Vrem = [];
+    var Vrem = [3456, 34523];
     var Paramy1;
 
     window.onload = function () {
@@ -278,17 +278,18 @@ var canvas;
 //                }
 //            }
 //        }
-        if (ParamS.length < 1) {
-            pen.fillText("Загрузка", 1, 12);
-        }
-            else {
+
+//        if (ParamS.length < 1) {
+//            pen.fillText("Загрузка", 1, 12);
+//        }
+//            else {
               for (var i = 0; i < Vrem.length; i++) {
                 if (typeof Vrem[i] != 'undefined') {
                   pen.fillText(timeFormat(Vrem[i] * 1000), 1, 12 + i * 15);
                   Vrem[i] = Vrem[i] + 1;
                 }
               }
-            }
+//            }
     }
 
 //    function Schem_Ok(Paramy) {
