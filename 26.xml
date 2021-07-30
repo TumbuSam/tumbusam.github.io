@@ -6,7 +6,7 @@
   <S id='ml' Name='ДСП' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>106</S>
   <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
   <S id='ml2' Name='ФасадБок' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>176</S>
-  <S id='ml3' Name='ФасадЦентр' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>171</S>
+  <S id='ml3' Name='ФасадЦентр' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>337</S>
   <S id='ml1' Name='ХДФ' Ml='ХДФ' kr='16' km='0' t='/Img/hdfo.jpg'>446</S>
   <S id='ugl1' Name='ДверьБок' min='0' max='1.57' step='0.01' >0.001</S>
   <S id='ugl2' Name='ДверьЦентр' min='0' max='1.57' step='0.01' >0.001</S>
@@ -121,7 +121,7 @@
 
   <E m='ml2' kr='15'>
    <S tip="dx">sh/6-2</S><S tip="dy">vs-100+tl</S><S tip="dz">tl</S>
-    <S tip="x">sh/3-0+2*(0-sh/12+0)*Math.cos(-ugl1)+(gl/2+tl/2-gl/2-20)*Math.sin(-ugl1)</S>
+    <S tip="x">sh/3-0+(0-sh/12+0)*Math.cos(-ugl1)+(gl/2+tl/2-gl/2-20-sh/12)*Math.sin(-ugl1)</S>
     <S tip="y">50-tl/2</S>
     <S tip="z">gl/2+20+(gl/2+tl/2-gl/2-20)*Math.cos(-ugl1)-(0-sh/12+0)*Math.sin(ugl1)</S>
    <S tip="py">-ugl1</S>
