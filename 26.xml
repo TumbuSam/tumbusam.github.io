@@ -121,7 +121,7 @@
 
   <E m='ml2' kr='15'>
    <S tip="dx">sh/6-2</S><S tip="dy">vs-100+tl</S><S tip="dz">tl</S>
-    <S tip="x">sh/3+(-sh/12)*Math.cos(-ugl1)+(tl/2-20)*Math.sin(-ugl1)</S>
+    <S tip="x">sh/3+(-sh/12)*Math.cos(ugl1)+(tl/2-20)*Math.sin(-ugl1)</S>
     <S tip="y">50-tl/2</S>
     <S tip="z">gl/2+20+(tl/2-20)*Math.cos(-ugl1)-(-sh/12)*Math.sin(ugl1)</S>
    <S tip="py">-ugl1</S>
