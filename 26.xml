@@ -42,17 +42,17 @@
  </E>
 
  <E m='ml1'>
-   <S tip="dx">sh/3</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
+   <S tip="dx">sh/3-1</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
    <S tip="x">-sh/3</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
  <E m='ml1'>
-   <S tip="dx">sh/3</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
+   <S tip="dx">sh/3-1</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
    <S tip="x">0</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
  <E m='ml1'>
-   <S tip="dx">sh/3</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
+   <S tip="dx">sh/3-1</S><S tip="dy">vs-100+tl</S><S tip="dz">4</S>
    <S tip="x">sh/3</S><S tip="y">50-tl/2</S><S tip="z">-gl/2-2</S>
  </E>
 
