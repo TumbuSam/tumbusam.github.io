@@ -44,7 +44,7 @@
 				iframe.style.width = '480px';
 				iframe.style.height = '360px';
 				iframe.style.border = '0px';
-				iframe.src = [ 'https://klgtu.ru/', id, '' ].join( '' );
+				iframe.src = [ 'https://', id, '' ].join( '' );
 				div.appendChild( iframe );
 
 				const object = new CSS3DObject( div );
@@ -72,10 +72,10 @@
 				container.appendChild( renderer.domElement );
 
 				const group = new THREE.Group();
-				group.add( new Element( '', 0, 0, 240, 0 ) );
-				group.add( new Element( '', 240, 0, 0, Math.PI / 2 ) );
-				group.add( new Element( '', 0, 0, - 240, Math.PI ) );
-				group.add( new Element( '', - 240, 0, 0, - Math.PI / 2 ) );
+				group.add( new Element( 'i-klgtu.ru/current/', 0, 0, 240, 0 ) );
+				group.add( new Element( 'klgtu.ru/', 240, 0, 0, Math.PI / 2 ) );
+				group.add( new Element( 'klgtu.ru/', 0, 0, - 240, Math.PI ) );
+				group.add( new Element( 'klgtu.ru/', - 240, 0, 0, - Math.PI / 2 ) );
 				scene.add( group );
 
 				controls = new TrackballControls( camera, renderer.domElement );
