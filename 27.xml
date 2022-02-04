@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <M Name="Полка">
-  <S id='sh' Name='Ширина' min='1800' max='3000' step='1' >2700</S>
-  <S id='gl' Name='Глубина' min='350' max='700' step='1' >600</S>
-  <S id='vs' Name='Высота' min='2000' max='2900' step='1' >2740</S>
+  <S id='sh' Name='Ширина' min='500' max='1500' step='1' >1000</S>
+  <S id='gl' Name='Глубина' min='300' max='600' step='1' >400</S>
+  <S id='vs' Name='Высота' min='2500' max='1500' step='1' >2000</S>
   <S id='ml' Name='ДСП1' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>84</S>
   <S id='ml1' Name='ДСП2' Ml='ДСП' kr='48' km='15' t='/Img/dsp.jpg'>105</S>
+  <S id='tl' Name='Толщина' min='16' max='18' step='2' >18</S>
 
  <E m='ml' kr='15'>
-   <S tip="dx">1700</S><S tip="dy">230</S><S tip="dz">18</S>
-   <S tip="x">-243</S><S tip="y">0</S><S tip="z">-9</S>
+   <S tip="dx">vs-2*tl</S><S tip="dy">gl</S><S tip="dz">0</S>
+   <S tip="x">sh/2-tl/2</S><S tip="y">0</S><S tip="z">0</S>
    <S tip="py">1.570796</S>
    <S tip="pz">1.570796</S>
  </E>
  <E m='ml' kr='15'>
+   <S tip="dx">vs-2*tl</S><S tip="dy">gl</S><S tip="dz">0</S>
+   <S tip="x">-sh/2+tl/2</S><S tip="y">0</S><S tip="z">0</S>
+   <S tip="py">1.570796</S>
+   <S tip="pz">1.570796</S>
+ </E>
+ <E m='ml1' kr='15'>
    <S tip="dx">1700</S><S tip="dy">230</S><S tip="dz">18</S>
-   <S tip="x">95</S><S tip="y">0</S><S tip="z">-115</S>
+   <S tip="x">0</S><S tip="y">0</S><S tip="z">-gl</S>
    <S tip="pz">1.570796</S>
  </E>
  <E m='ml1' kr='15'>
